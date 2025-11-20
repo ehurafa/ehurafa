@@ -1,6 +1,6 @@
-<div align="center">
+<div align="left">
   <a href="https://github.com/ehurafa">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=ehurafa&show_icons=true&include_all_commits=true&count_private=true"/>
+ <!-- <img height="180em" src="https://github-readme-stats.vercel.app/api?username=ehurafa&show_icons=true&include_all_commits=true&count_private=true"/> -->
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ehurafa&layout=compact&langs_count=7"/>
 </div>
 <div style="display: inline_block"><br>
@@ -27,9 +27,4 @@
 
   
   ##
- 
-<div> 
 
- <!--  ![Snake animation](https://github.com/ehurafa/ehurafa/blob/output/github-contribution-grid-snake.svg) -->
- 
-</div>
