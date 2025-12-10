@@ -2,7 +2,6 @@
   <a href="https://github.com/ehurafa">
  <!-- <img height="180em" src="https://github-readme-stats.vercel.app/api?username=ehurafa&show_icons=true&include_all_commits=true&count_private=true"/> 
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ehurafa&layout=compact&langs_count=7"/> --></a>
-  <h2> 💻 Rafael Gomes</h2>
   <p>
   Sou Desenvolvedor Front-end Sênior com mais de 15 anos de experiência, especializado em React, Vue.js, JavaScript/TypeScript e arquitetura front-end para aplicações de alta escala e performance. Atuo construindo interfaces modernas, acessíveis, seguras e orientadas a dados, sempre focado em usabilidade, manutenibilidade e qualidade do código. 
 
