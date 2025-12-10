@@ -1,7 +1,20 @@
 <div align="left">
   <a href="https://github.com/ehurafa">
- <!-- <img height="180em" src="https://github-readme-stats.vercel.app/api?username=ehurafa&show_icons=true&include_all_commits=true&count_private=true"/> -->
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ehurafa&layout=compact&langs_count=7"/>
+ <!-- <img height="180em" src="https://github-readme-stats.vercel.app/api?username=ehurafa&show_icons=true&include_all_commits=true&count_private=true"/> 
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ehurafa&layout=compact&langs_count=7"/> --></a>
+  <h2> 💻 Rafael Gomes</h2>
+  <p>
+  Sou Desenvolvedor Front-end Sênior com mais de 15 anos de experiência, especializado em React, Vue.js, JavaScript/TypeScript e arquitetura front-end para aplicações de alta escala e performance. Atuo construindo interfaces modernas, acessíveis, seguras e orientadas a dados, sempre focado em usabilidade, manutenibilidade e qualidade do código. 
+
+Tenho experiência sólida em desenvolvimento de aplicações complexas — incluindo produtos financeiros, e-commerce, plataformas digitais e ferramentas internas - trabalhando com SSR/CSR, micro-frontends, componentização, CI/CD, testes automatizados, SEO técnico e otimização de Web Vitals.
+
+Também atuo fortemente com análise de performance, profiling, code splitting, lazy loading, acessibilidade, implementação de experimentos (A/B), personalização e monitoramento com ferramentas de observabilidade.
+
+Meu objetivo é entregar soluções eficientes, escaláveis e consistentes, com foco em experiência do usuário, padronização, colaboração e evolução contínua.
+
+Principais stacks e tecnologias:
+React, Vue, TypeScript, JavaScript ES6+, HTML5, CSS3/Sass, Node.js, Git, APIs REST, WebSockets, Cypress, Jest, Docker, CI/CD, Adobe Target, Storybook, micro-frontends, SSR, Vite, Webpack.
+  </p>
 </div>
 <div style="display: inline_block"><br>
    <img align="center" alt="Rafa-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
