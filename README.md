@@ -5,7 +5,7 @@
   <p>
   Sou Desenvolvedor Front-end Sênior com mais de 15 anos de experiência, especializado em React, Vue.js, JavaScript/TypeScript e arquitetura front-end para aplicações de alta escala e performance. Atuo construindo interfaces modernas, acessíveis, seguras e orientadas a dados, sempre focado em usabilidade, manutenibilidade e qualidade do código. 
 
-Tenho experiência sólida em desenvolvimento de aplicações complexas — incluindo produtos financeiros, e-commerce, plataformas digitais e ferramentas internas - trabalhando com SSR/CSR, micro-frontends, componentização, CI/CD, testes automatizados, SEO técnico e otimização de Web Vitals.
+Tenho experiência sólida em desenvolvimento de aplicações complexas - incluindo produtos financeiros, e-commerce, plataformas digitais e ferramentas internas - trabalhando com SSR/CSR, micro-frontends, componentização, CI/CD, testes automatizados, SEO técnico e otimização de Web Vitals.
 
 Também atuo fortemente com análise de performance, profiling, code splitting, lazy loading, acessibilidade, implementação de experimentos (A/B), personalização e monitoramento com ferramentas de observabilidade.
 
