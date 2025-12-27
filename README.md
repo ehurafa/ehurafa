@@ -3,16 +3,14 @@
  <!-- <img height="180em" src="https://github-readme-stats.vercel.app/api?username=ehurafa&show_icons=true&include_all_commits=true&count_private=true"/> 
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ehurafa&layout=compact&langs_count=7"/> --></a>
   <p>
-  Sou Desenvolvedor Front-end Sênior com mais de 15 anos de experiência, especializado em React, Vue.js, JavaScript/TypeScript e arquitetura front-end para aplicações de alta escala e performance. Atuo construindo interfaces modernas, acessíveis, seguras e orientadas a dados, sempre focado em usabilidade, manutenibilidade e qualidade do código. 
+  Sou Desenvolvedor Front-end Sênior com mais de 15 anos de experiência, atuando na construção de produtos digitais escaláveis, performáticos e orientados à experiência do usuário. Ao longo da minha trajetória, contribuí para bancos, fintechs, e-commerces e grandes marcas, para criar experiências incríveis.
+    
+Trabalho com arquitetura front-end, Design Systems, micro-frontends e aplicações SSR/CSR em contextos de alta complexidade, como plataformas financeiras, e-commerce e produtos B2B. Ao longo da carreira, apoiei times a reduzir retrabalho, padronizar código e melhorar métricas de performance, SEO e Web Vitals.
 
-Tenho experiência sólida em desenvolvimento de aplicações complexas - incluindo produtos financeiros, e-commerce, plataformas digitais e ferramentas internas - trabalhando com SSR/CSR, micro-frontends, componentização, CI/CD, testes automatizados, SEO técnico e otimização de Web Vitals.
+Tenho forte atuação em otimização de performance, acessibilidade, testes automatizados e observabilidade, colaborando de perto com design, produto e engenharia para entregar soluções consistentes, sustentáveis e alinhadas aos objetivos do negócio.
 
-Também atuo fortemente com análise de performance, profiling, code splitting, lazy loading, acessibilidade, implementação de experimentos (A/B), personalização e monitoramento com ferramentas de observabilidade.
+Acredito que minha missão como Desenvolvedor é resolver problemas!
 
-Meu objetivo é entregar soluções eficientes, escaláveis e consistentes, com foco em experiência do usuário, padronização, colaboração e evolução contínua.
-
-Principais stacks e tecnologias:
-React, Vue, TypeScript, JavaScript ES6+, HTML5, CSS3/Sass, Node.js, Git, APIs REST, WebSockets, Cypress, Jest, Docker, CI/CD, Adobe Target, Storybook, micro-frontends, SSR, Vite, Webpack.
   </p>
 </div>
 <div style="display: inline_block"><br>
