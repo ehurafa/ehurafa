@@ -230,8 +230,8 @@ def generate_fake_data():
 def generate_svg_heatmap(contributions_data):
     """Gera o SVG do heatmap"""
     
-    cell_size = 12
-    cell_gap = 4
+    cell_size = 10
+    cell_gap = 3
     total_cell = cell_size + cell_gap
     
     weeks = contributions_data["weeks"][-52:]  # Últimas 52 semanas
@@ -243,18 +243,18 @@ def generate_svg_heatmap(contributions_data):
     <style>
         .day {{ rx: 2; ry: 2; transition: all 0.2s; }}
         .day:hover {{ stroke: #ff6b00; stroke-width: 2; }}
-        text {{ font-family: 'JetBrains Mono', monospace; font-size: 10px; fill: #8b949e; }}
+        text {{ font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji"; font-size: 10px; fill: #8b949e; }}
         .fire {{ animation: burn 1.5s ease-in-out infinite; }}
         @keyframes burn {{
             0%, 100% {{ opacity: 1; }}
             50% {{ opacity: 0.8; }}
         }}
     </style>
-    <rect width="{width}" height="{height}" fill="#0d1117"/>
+    <rect width="{width}" height="{height}" fill="#0d1117" rx="6"/>
     
     <!-- Título -->
-    <text x="10" y="20" fill="#c9d1d9" font-size="14" font-weight="600">
-        <tspan fill="#ff6b00">{contributions_data["totalContributions"]}</tspan> contributions in the last year
+    <text x="15" y="25" fill="#c9d1d9" font-size="12" font-weight="400">
+        <tspan fill="#ff6b00" font-weight="600">{contributions_data["totalContributions"]}</tspan> contributions in the last year
     </text>
     
     <!-- Labels dos dias -->
@@ -263,7 +263,7 @@ def generate_svg_heatmap(contributions_data):
     days_labels = ["", "Mon", "", "Wed", "", "Fri", ""]
     for i, label in enumerate(days_labels):
         if label:
-            svg += f'    <text x="5" y="{50 + i * total_cell}" text-anchor="end">{label}</text>\n'
+            svg += f'    <text x="25" y="{48 + i * total_cell}" text-anchor="end">{label}</text>\n'
     
     # Meses
     months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
@@ -306,11 +306,12 @@ def generate_svg_heatmap(contributions_data):
     </defs>
     
     <!-- Legenda -->
-    <g transform="translate(10, ''' + str(height - 25) + ''')">
-        <text y="12">Less</text>
+    <!-- Legenda -->
+    <g transform="translate(40, ''' + str(height - 25) + ''')">
+        <text y="10">Less</text>
 '''
     
-    legend_x = 50
+    legend_x = 30
     for level in range(9):
         svg += f'        <rect x="{legend_x + level * (cell_size + 2)}" width="{cell_size}" height="{cell_size}" fill="{COLORS[level]}" rx="2"/>\n'
     
