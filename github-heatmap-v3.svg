@@ -1,4 +1,4 @@
-<svg width="100%" viewBox="0 0 730 322" xmlns="http://www.w3.org/2000/svg">
+<svg width="100%" viewBox="0 0 730 292" xmlns="http://www.w3.org/2000/svg">
     <style>
         .day { rx: 2; ry: 2; transition: all 0.2s; }
         .day:hover { stroke: #ff6b00; stroke-width: 2; }
@@ -102,11 +102,11 @@
             }
         }
     </style>
-    <rect width="730" height="322" fill="#ffffff" rx="6"/>
+    <rect width="730" height="292" fill="#ffffff" rx="6"/>
     
     <!-- Título -->
     <text x="15" y="25" fill="#24292f" font-size="12" font-weight="400">
-        <tspan fill="#ff6b00" font-weight="600">235</tspan> contribuições nos últimos 6 meses
+        <tspan fill="#ff6b00" font-weight="600">236</tspan> contribuições nos últimos 6 meses
     </text>
     
     <!-- Labels dos dias -->
@@ -290,24 +290,26 @@
     <rect class="day" x="664" y="66" width="22" height="22" fill="hsl(60, 100%, 92%)"/>
     <rect class="day" x="664" y="92" width="22" height="22" fill="hsl(60, 100%, 92%)"/>
     <rect class="day fire-blue" x="508" y="118" width="22" height="22" fill="url(#fireGradientBlue)"/>
-    <circle class="spark-blue" cx="519.0" cy="129.0" r="1.5" style="--ty: -26px; animation-delay: 0.8618339543617041s;"/>
-    <circle class="spark-blue" cx="519.0" cy="129.0" r="1.5" style="--ty: -36px; animation-delay: 0.8923801172955638s;"/>
-    <circle class="spark-blue" cx="519.0" cy="129.0" r="1.5" style="--ty: -44px; animation-delay: 0.8684645209767158s;"/>
-    <circle class="spark-blue" cx="519.0" cy="129.0" r="1.5" style="--ty: -32px; animation-delay: 0.7335484159002446s;"/>
-    <circle class="spark-blue" cx="519.0" cy="129.0" r="1.5" style="--ty: -42px; animation-delay: 0.7103174160268041s;"/>
-    <circle class="spark-blue" cx="519.0" cy="129.0" r="1.5" style="--ty: -44px; animation-delay: 0.7931682685017395s;"/>
+    <circle class="spark-blue" cx="519.0" cy="129.0" r="1.5" style="--ty: -43px; animation-delay: 0.5953907311945077s;"/>
+    <circle class="spark-blue" cx="519.0" cy="129.0" r="1.5" style="--ty: -44px; animation-delay: 0.40616638085844214s;"/>
+    <circle class="spark-blue" cx="519.0" cy="129.0" r="1.5" style="--ty: -44px; animation-delay: 0.3058896703273598s;"/>
+    <circle class="spark-blue" cx="519.0" cy="129.0" r="1.5" style="--ty: -45px; animation-delay: 0.0002698647433932999s;"/>
+    <circle class="spark-blue" cx="519.0" cy="129.0" r="1.5" style="--ty: -33px; animation-delay: 0.8206929270731516s;"/>
+    <circle class="spark-blue" cx="519.0" cy="129.0" r="1.5" style="--ty: -36px; animation-delay: 0.9563287487921118s;"/>
     <rect class="day fire-blue" x="664" y="118" width="22" height="22" fill="url(#fireGradientBlue)"/>
-    <circle class="spark-blue" cx="675.0" cy="129.0" r="1.5" style="--ty: -45px; animation-delay: 0.7151491493464995s;"/>
-    <circle class="spark-blue" cx="675.0" cy="129.0" r="1.5" style="--ty: -43px; animation-delay: 0.7207630548296606s;"/>
-    <circle class="spark-blue" cx="675.0" cy="129.0" r="1.5" style="--ty: -34px; animation-delay: 0.9954667962393212s;"/>
-    <circle class="spark-blue" cx="675.0" cy="129.0" r="1.5" style="--ty: -33px; animation-delay: 0.08252709574946426s;"/>
-    <circle class="spark-blue" cx="675.0" cy="129.0" r="1.5" style="--ty: -36px; animation-delay: 0.41704557682852705s;"/>
-    <circle class="spark-blue" cx="675.0" cy="129.0" r="1.5" style="--ty: -26px; animation-delay: 0.9336166430355102s;"/>
-    <rect class="day fire-red" x="664" y="144" width="22" height="22" fill="url(#fireGradientRed)"/>
-    <circle class="spark-red" cx="675.0" cy="155.0" r="1.5" style="--ty: -24px; animation-delay: 0.22632004313758836s;"/>
-    <circle class="spark-red" cx="675.0" cy="155.0" r="1.5" style="--ty: -20px; animation-delay: 0.8878818840102721s;"/>
-    <circle class="spark-red" cx="675.0" cy="155.0" r="1.5" style="--ty: -19px; animation-delay: 0.911892221179999s;"/>
-    <circle class="spark-red" cx="675.0" cy="155.0" r="1.5" style="--ty: -23px; animation-delay: 0.17380447555064826s;"/>
+    <circle class="spark-blue" cx="675.0" cy="129.0" r="1.5" style="--ty: -34px; animation-delay: 0.2573535460103422s;"/>
+    <circle class="spark-blue" cx="675.0" cy="129.0" r="1.5" style="--ty: -33px; animation-delay: 0.2456224272535985s;"/>
+    <circle class="spark-blue" cx="675.0" cy="129.0" r="1.5" style="--ty: -41px; animation-delay: 0.8106052000963834s;"/>
+    <circle class="spark-blue" cx="675.0" cy="129.0" r="1.5" style="--ty: -32px; animation-delay: 0.4756969821753604s;"/>
+    <circle class="spark-blue" cx="675.0" cy="129.0" r="1.5" style="--ty: -30px; animation-delay: 0.9441992089615697s;"/>
+    <circle class="spark-blue" cx="675.0" cy="129.0" r="1.5" style="--ty: -36px; animation-delay: 0.38742097770277584s;"/>
+    <rect class="day fire-blue" x="664" y="144" width="22" height="22" fill="url(#fireGradientBlue)"/>
+    <circle class="spark-blue" cx="675.0" cy="155.0" r="1.5" style="--ty: -34px; animation-delay: 0.12899392027126533s;"/>
+    <circle class="spark-blue" cx="675.0" cy="155.0" r="1.5" style="--ty: -45px; animation-delay: 0.5579379136231292s;"/>
+    <circle class="spark-blue" cx="675.0" cy="155.0" r="1.5" style="--ty: -39px; animation-delay: 0.9270789931767873s;"/>
+    <circle class="spark-blue" cx="675.0" cy="155.0" r="1.5" style="--ty: -30px; animation-delay: 0.009486323885074754s;"/>
+    <circle class="spark-blue" cx="675.0" cy="155.0" r="1.5" style="--ty: -31px; animation-delay: 0.8784023739467364s;"/>
+    <circle class="spark-blue" cx="675.0" cy="155.0" r="1.5" style="--ty: -37px; animation-delay: 0.2560867951244419s;"/>
 
     <defs>
         <!-- Gradiente Fogo Vermelho -->

@@ -261,7 +261,7 @@ def generate_svg_heatmap(contributions_data):
     weeks = contributions_data["weeks"][-weeks_to_show:]
     
     width = len(weeks) * total_cell + 80  # Espaço à direita para brilho
-    height = 7 * total_cell + 140  # Aumentado para 140 (mais espaço embaixo da legenda)
+    height = 7 * total_cell + 110  # Espaço otimizado para legenda
     
     svg = f'''<svg width="100%" viewBox="0 0 {width} {height}" xmlns="http://www.w3.org/2000/svg">
     <style>
@@ -487,7 +487,7 @@ def generate_svg_heatmap(contributions_data):
     </defs>
     
     <!-- Legenda -->
-    <g transform="translate(40, ''' + str(height - 80) + ''')">
+    <g transform="translate(40, ''' + str(height - 50) + ''')">
         <text y="15">Menos</text>
 '''
     
