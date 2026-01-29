@@ -20,6 +20,7 @@ load_dotenv()
 # 3. USERNAME (usuário do sistema - fallback para testar localmente, mas cuidado no Windows)
 USERNAME = os.environ.get('GITHUB_USERNAME') or os.environ.get('GITHUB_ACTOR') or os.environ.get('USERNAME', 'ehurafa')
 GITHUB_TOKEN = os.environ.get('GITHUB_TOKEN', '')
+MONTHS_TO_SHOW = int(os.environ.get('MONTHS_TO_SHOW', 6)) # Default: 6 meses
 
 # Cores personalizadas (seus 8 níveis)
 COLORS = {
@@ -230,46 +231,68 @@ def generate_fake_data():
 def generate_svg_heatmap(contributions_data):
     """Gera o SVG do heatmap"""
     
-    cell_size = 10
-    cell_gap = 3
+    cell_size = 22
+    cell_gap = 4
     total_cell = cell_size + cell_gap
     
-    weeks = contributions_data["weeks"][-52:]  # Últimas 52 semanas
+    # Calcula semanas baseado nos meses (aprox 4.33 semanas por mês)
+    weeks_to_show = int(MONTHS_TO_SHOW * 4.33)
+    weeks = contributions_data["weeks"][-weeks_to_show:]
     
     width = len(weeks) * total_cell + 40
-    height = 7 * total_cell + 60
+    height = 7 * total_cell + 90 # Mais espaço para legenda
     
-    svg = f'''<svg width="{width}" height="{height}" xmlns="http://www.w3.org/2000/svg">
+    svg = f'''<svg width="100%" viewBox="0 0 {width} {height}" xmlns="http://www.w3.org/2000/svg">
     <style>
         .day {{ rx: 2; ry: 2; transition: all 0.2s; }}
         .day:hover {{ stroke: #ff6b00; stroke-width: 2; }}
         text {{ font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji"; font-size: 10px; fill: #8b949e; }}
-        .fire {{ animation: burn 1.5s ease-in-out infinite; }}
+        /* Efeito de Fogo Intenso Animado */
+        .fire {{ 
+            stroke: #ffae00;
+            stroke-width: 1px;
+            animation: burn 1.5s ease-in-out infinite alternate;
+            rx: 1; /* Quadrado levemente arredondado */
+        }}
+        
         @keyframes burn {{
-            0%, 100% {{ opacity: 1; }}
-            50% {{ opacity: 0.8; }}
+            0% {{ 
+                filter: drop-shadow(0 0 2px #ff0000) drop-shadow(0 0 4px #ff6b00); 
+                stroke-opacity: 0.6;
+            }}
+            50% {{
+                filter: drop-shadow(0 -1px 3px #ff3300) drop-shadow(0 -2px 6px #ff8800);
+            }}
+            100% {{ 
+                filter: drop-shadow(0 -2px 4px #ff0000) drop-shadow(0 -5px 12px #ffae00); 
+                stroke-opacity: 1;
+            }}
         }}
     </style>
     <rect width="{width}" height="{height}" fill="#0d1117" rx="6"/>
     
     <!-- Título -->
     <text x="15" y="25" fill="#c9d1d9" font-size="12" font-weight="400">
-        <tspan fill="#ff6b00" font-weight="600">{contributions_data["totalContributions"]}</tspan> contributions in the last year
+        <tspan fill="#ff6b00" font-weight="600">{contributions_data["totalContributions"]}</tspan> contribuições nos últimos {MONTHS_TO_SHOW} meses
     </text>
     
     <!-- Labels dos dias -->
 '''
     
-    days_labels = ["", "Mon", "", "Wed", "", "Fri", ""]
+    days_labels = ["", "Seg", "", "Qua", "", "Sex", ""]
     for i, label in enumerate(days_labels):
         if label:
-            svg += f'    <text x="25" y="{48 + i * total_cell}" text-anchor="end">{label}</text>\n'
+            # Centraliza o texto verticalmente na célula (approx)
+            svg += f'    <text x="25" y="{56 + i * total_cell}" text-anchor="end">{label}</text>\n'
     
     # Meses
-    months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
+    months = ["Jan", "Fev", "Mar", "Abr", "Mai", "Jun", "Jul", "Ago", "Set", "Out", "Nov", "Dez"]
     current_month = -1
     
     # Grid de contribuições
+    fire_cells = []
+    normal_cells = []
+
     for week_idx, week in enumerate(weeks):
         x = 40 + week_idx * total_cell
         
@@ -285,37 +308,50 @@ def generate_svg_heatmap(contributions_data):
                 current_month = date.month
                 svg += f'    <text x="{x}" y="35">{months[current_month - 1]}</text>\n'
             
-            # Quadrado com animação para nível 8
-            class_name = "day fire" if level == 8 else "day"
-            fill = "url(#fireGradient)" if level == 8 else color
-            
-            svg += f'    <rect class="{class_name}" x="{x}" y="{y}" width="{cell_size}" height="{cell_size}" fill="{fill}"/>\n'
+            # Separar células normais das de fogo para renderizar fogo por cima (z-index)
+            if level == 8:
+                class_name = "day fire"
+                fill = "url(#fireGradient)"
+                rect_content = f'    <rect class="{class_name}" x="{x}" y="{y}" width="{cell_size}" height="{cell_size}" fill="{fill}"/>\n'
+                fire_cells.append(rect_content)
+            else:
+                class_name = "day"
+                fill = color
+                rect_content = f'    <rect class="{class_name}" x="{x}" y="{y}" width="{cell_size}" height="{cell_size}" fill="{fill}"/>\n'
+                normal_cells.append(rect_content)
+
+    # Renderiza primeiro as normais, depois as de fogo (para ficarem por cima)
+    svg += "".join(normal_cells)
+    svg += "".join(fire_cells)
     
     # Gradiente de fogo
     svg += '''
     <defs>
-        <linearGradient id="fireGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-            <stop offset="0%" style="stop-color:rgb(255,0,0);stop-opacity:1">
-                <animate attributeName="stop-color" values="rgb(255,0,0);rgb(255,50,0);rgb(255,0,0)" dur="1.5s" repeatCount="indefinite"/>
+        <linearGradient id="fireGradient" x1="0%" y1="100%" x2="100%" y2="0%">
+            <stop offset="0%" style="stop-color:#ff0000;stop-opacity:1">
+                <animate attributeName="stop-color" values="#ff0000;#bd0000;#ff0000" dur="1s" repeatCount="indefinite"/>
             </stop>
-            <stop offset="50%" style="stop-color:rgb(255,30,15);stop-opacity:1"/>
-            <stop offset="100%" style="stop-color:rgb(255,60,30);stop-opacity:1">
-                <animate attributeName="stop-color" values="rgb(255,60,30);rgb(255,100,50);rgb(255,60,30)" dur="1.5s" repeatCount="indefinite"/>
+            <stop offset="50%" style="stop-color:#ff5500;stop-opacity:1"/>
+            <stop offset="100%" style="stop-color:#ffff00;stop-opacity:1">
+                <animate attributeName="stop-color" values="#ffff00;#ffcc00;#ffff00" dur="1s" repeatCount="indefinite"/>
             </stop>
         </linearGradient>
     </defs>
     
     <!-- Legenda -->
     <!-- Legenda -->
-    <g transform="translate(40, ''' + str(height - 25) + ''')">
-        <text y="10">Less</text>
+    <g transform="translate(40, ''' + str(height - 30) + ''')">
+        <text y="15">Menos</text>
 '''
     
-    legend_x = 30
+    legend_x = 40 # Ajuste fino para "Menos" não colar
     for level in range(9):
-        svg += f'        <rect x="{legend_x + level * (cell_size + 2)}" width="{cell_size}" height="{cell_size}" fill="{COLORS[level]}" rx="2"/>\n'
+        if level == 8:
+            svg += f'        <rect class="day fire" x="{legend_x + level * (cell_size + 2)}" width="{cell_size}" height="{cell_size}" fill="url(#fireGradient)" rx="2"/>\n'
+        else:
+            svg += f'        <rect x="{legend_x + level * (cell_size + 2)}" width="{cell_size}" height="{cell_size}" fill="{COLORS[level]}" rx="2"/>\n'
     
-    svg += f'''        <text x="{legend_x + 9 * (cell_size + 2) + 10}" y="12">More 🔥</text>
+    svg += f'''        <text x="{legend_x + 9 * (cell_size + 2) + 10}" y="15">Mais 🔥</text>
     </g>
 </svg>'''
     
