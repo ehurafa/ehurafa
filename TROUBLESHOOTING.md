@@ -153,3 +153,14 @@ O GitHub renderiza imagens SVG dentro de uma tag `<img>` por razões de seguran�
 
 **Existe solução?**
 Infelizmente, **não**. É uma limitação da plataforma GitHub para evitar scripts maliciosos ou comportamentos inesperados. O máximo que conseguimos fazer são animações por tempo (`keyframes`), como o efeito de fogo que implementamos, pois elas não dependem da interação do usuário.
+
+### A imagem não atualiza (Cache)
+Às vezes o GitHub "segura" uma versão antiga da imagem por performance.
+**Solução:** Adicione um parâmetro "inútil" no final do link no `README.md` para forçar a atualização:
+```html
+<!-- Antes -->
+<img src="./github-heatmap.svg">
+
+<!-- Depois (mude o número se travar de novo) -->
+<img src="./github-heatmap.svg?v=1">
+```
