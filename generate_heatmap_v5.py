@@ -536,7 +536,7 @@ def generate_svg_heatmap(contributions_data):
     </defs>
     
     <!-- Legenda -->
-    <g transform="translate(40, ''' + str(height - 30) + ''')">
+    <g transform="translate(40, ''' + str(height - 60) + ''')">
         <text y="15">Menos</text>
 '''
     

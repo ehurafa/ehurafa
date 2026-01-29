@@ -106,7 +106,7 @@
     
     <!-- Título -->
     <text x="15" y="25" fill="#24292f" font-size="12" font-weight="400">
-        <tspan fill="#ff6b00" font-weight="600">233</tspan> contribuições nos últimos 6 meses
+        <tspan fill="#ff6b00" font-weight="600">234</tspan> contribuições nos últimos 6 meses
     </text>
     
     <!-- Labels dos dias -->
@@ -289,21 +289,21 @@
     <rect class="day" x="664" y="40" width="22" height="22" fill="hsl(60, 100%, 92%)"/>
     <rect class="day" x="664" y="66" width="22" height="22" fill="hsl(60, 100%, 92%)"/>
     <rect class="day" x="664" y="92" width="22" height="22" fill="hsl(60, 100%, 92%)"/>
-    <rect class="day" x="664" y="144" width="22" height="22" fill="rgb(255,100,40)"/>
+    <rect class="day" x="664" y="144" width="22" height="22" fill="rgb(255,60,30)"/>
     <rect class="day fire-blue" x="508" y="118" width="22" height="22" fill="url(#fireGradientBlue)"/>
-    <circle class="spark-blue" cx="519.0" cy="129.0" r="1.5" style="--ty: -32px; animation-delay: 0.027895746158915657s;"/>
-    <circle class="spark-blue" cx="519.0" cy="129.0" r="1.5" style="--ty: -44px; animation-delay: 0.13560551666926723s;"/>
-    <circle class="spark-blue" cx="519.0" cy="129.0" r="1.5" style="--ty: -39px; animation-delay: 0.9725178401547397s;"/>
-    <circle class="spark-blue" cx="519.0" cy="129.0" r="1.5" style="--ty: -40px; animation-delay: 0.852150606582879s;"/>
-    <circle class="spark-blue" cx="519.0" cy="129.0" r="1.5" style="--ty: -41px; animation-delay: 0.19569147410762622s;"/>
-    <circle class="spark-blue" cx="519.0" cy="129.0" r="1.5" style="--ty: -38px; animation-delay: 0.7649193220385557s;"/>
+    <circle class="spark-blue" cx="519.0" cy="129.0" r="1.5" style="--ty: -40px; animation-delay: 0.3625437295781403s;"/>
+    <circle class="spark-blue" cx="519.0" cy="129.0" r="1.5" style="--ty: -27px; animation-delay: 0.44115993869012904s;"/>
+    <circle class="spark-blue" cx="519.0" cy="129.0" r="1.5" style="--ty: -45px; animation-delay: 0.7072878301979714s;"/>
+    <circle class="spark-blue" cx="519.0" cy="129.0" r="1.5" style="--ty: -27px; animation-delay: 0.7998685338889304s;"/>
+    <circle class="spark-blue" cx="519.0" cy="129.0" r="1.5" style="--ty: -31px; animation-delay: 0.9413212197510945s;"/>
+    <circle class="spark-blue" cx="519.0" cy="129.0" r="1.5" style="--ty: -31px; animation-delay: 0.7618200950618137s;"/>
     <rect class="day fire-blue" x="664" y="118" width="22" height="22" fill="url(#fireGradientBlue)"/>
-    <circle class="spark-blue" cx="675.0" cy="129.0" r="1.5" style="--ty: -44px; animation-delay: 0.2054945639886716s;"/>
-    <circle class="spark-blue" cx="675.0" cy="129.0" r="1.5" style="--ty: -36px; animation-delay: 0.7363712412483921s;"/>
-    <circle class="spark-blue" cx="675.0" cy="129.0" r="1.5" style="--ty: -32px; animation-delay: 0.21812571652071955s;"/>
-    <circle class="spark-blue" cx="675.0" cy="129.0" r="1.5" style="--ty: -44px; animation-delay: 0.1146612478671476s;"/>
-    <circle class="spark-blue" cx="675.0" cy="129.0" r="1.5" style="--ty: -42px; animation-delay: 0.31028708531391247s;"/>
-    <circle class="spark-blue" cx="675.0" cy="129.0" r="1.5" style="--ty: -34px; animation-delay: 0.7427954357819639s;"/>
+    <circle class="spark-blue" cx="675.0" cy="129.0" r="1.5" style="--ty: -27px; animation-delay: 0.5902337203497211s;"/>
+    <circle class="spark-blue" cx="675.0" cy="129.0" r="1.5" style="--ty: -43px; animation-delay: 0.8685360715297994s;"/>
+    <circle class="spark-blue" cx="675.0" cy="129.0" r="1.5" style="--ty: -32px; animation-delay: 0.4361858366778951s;"/>
+    <circle class="spark-blue" cx="675.0" cy="129.0" r="1.5" style="--ty: -30px; animation-delay: 0.03298238092681882s;"/>
+    <circle class="spark-blue" cx="675.0" cy="129.0" r="1.5" style="--ty: -27px; animation-delay: 0.26076246961012395s;"/>
+    <circle class="spark-blue" cx="675.0" cy="129.0" r="1.5" style="--ty: -37px; animation-delay: 0.19174272608709775s;"/>
 
     <defs>
         <!-- Gradiente Fogo Vermelho -->
@@ -340,7 +340,7 @@
     </defs>
     
     <!-- Legenda -->
-    <g transform="translate(40, 272)">
+    <g transform="translate(40, 242)">
         <text y="15">Menos</text>
         <rect x="40" width="22" height="22" fill="#ebedf0" rx="2"/>
         <rect x="64" width="22" height="22" fill="hsl(60, 100%, 92%)" rx="2"/>

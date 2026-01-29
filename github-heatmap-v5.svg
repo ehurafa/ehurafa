@@ -148,7 +148,7 @@
     
     <!-- Título -->
     <text x="15" y="25" fill="#24292f" font-size="12" font-weight="400">
-        <tspan fill="#ff6b00" font-weight="600">233</tspan> contribuições nos últimos 6 meses
+        <tspan fill="#ff6b00" font-weight="600">234</tspan> contribuições nos últimos 6 meses
     </text>
     
     <!-- Labels dos dias -->
@@ -331,9 +331,9 @@
     <rect class="day" x="664" y="40" width="22" height="22" fill="hsl(60, 100%, 92%)"/>
     <rect class="day" x="664" y="66" width="22" height="22" fill="hsl(60, 100%, 92%)"/>
     <rect class="day" x="664" y="92" width="22" height="22" fill="hsl(60, 100%, 92%)"/>
-    <rect class="day" x="664" y="144" width="22" height="22" fill="rgb(255,100,40)"/>
+    <rect class="day" x="664" y="144" width="22" height="22" fill="rgb(255,60,30)"/>
     <rect class="day fire-blue" x="508" y="118" width="22" height="22" fill="url(#fireGradientBlue)"/>
-    <path class="lightning" d="M 519.0,113 L 522.0833519870263,122.4 L 523.041267226217,126.8 L 520.1139222016122,131.2 L 515.9463774673417,135.6 L 519.0,145" style="animation-delay: 1.3876211664773022s;"/>
+    <path class="lightning" d="M 519.0,113 L 521.353199756373,122.4 L 513.6302028208111,126.8 L 519.1090732868685,131.2 L 516.082863046567,135.6 L 519.0,145" style="animation-delay: 1.1665467032914856s;"/>
     <rect class="day fire-red" x="664" y="118" width="22" height="22" fill="url(#fireGradientRed)"/>
 
     <defs>
@@ -372,7 +372,7 @@
     </defs>
     
     <!-- Legenda -->
-    <g transform="translate(40, 272)">
+    <g transform="translate(40, 242)">
         <text y="15">Menos</text>
         <rect x="40" width="22" height="22" fill="#ebedf0" rx="2"/>
         <rect x="64" width="22" height="22" fill="hsl(60, 100%, 92%)" rx="2"/>
