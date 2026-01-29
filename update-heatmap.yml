@@ -35,7 +35,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         USERNAME: ${{ github.repository_owner }}
       run: |
-        python generate_heatmap.py
+        python generate_heatmap_v5.py
         
     - name: Commit and push if changed
       run: |
