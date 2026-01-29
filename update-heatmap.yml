@@ -1,0 +1,39 @@
+name: Update GitHub Heatmap
+
+on:
+  schedule:
+    # Roda todo dia às 00:00 UTC
+    - cron: '0 0 * * *'
+  workflow_dispatch:  # Permite executar manualmente
+  push:
+    branches: [ main ]
+
+jobs:
+  update-heatmap:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+      
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+        
+    - name: Install dependencies
+      run: |
+        pip install requests
+        
+    - name: Generate heatmap
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        python generate_heatmap.py
+        
+    - name: Commit and push if changed
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add github-heatmap.svg
+        git diff --quiet && git diff --staged --quiet || (git commit -m "Update heatmap [skip ci]" && git push)
