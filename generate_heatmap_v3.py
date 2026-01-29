@@ -260,8 +260,8 @@ def generate_svg_heatmap(contributions_data):
     weeks_to_show = int(MONTHS_TO_SHOW * 4.33)
     weeks = contributions_data["weeks"][-weeks_to_show:]
     
-    width = len(weeks) * total_cell + 40
-    height = 7 * total_cell + 90 # Mais espaço para legenda
+    width = len(weeks) * total_cell + 80  # Aumentado de 40 para 80 (mais espaço à direita)
+    height = 7 * total_cell + 120  # Aumentado de 90 para 120 (mais espaço embaixo)
     
     svg = f'''<svg width="100%" viewBox="0 0 {width} {height}" xmlns="http://www.w3.org/2000/svg">
     <style>

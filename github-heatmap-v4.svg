@@ -1,4 +1,4 @@
-<svg width="100%" viewBox="0 0 690 272" xmlns="http://www.w3.org/2000/svg">
+<svg width="100%" viewBox="0 0 730 302" xmlns="http://www.w3.org/2000/svg">
     <style>
         .day { rx: 2; ry: 2; transition: all 0.2s; }
         .day:hover { stroke: #ff6b00; stroke-width: 2; }
@@ -108,11 +108,11 @@
             }
         }
     </style>
-    <rect width="690" height="272" fill="#ffffff" rx="6"/>
+    <rect width="730" height="302" fill="#ffffff" rx="6"/>
     
     <!-- Título -->
     <text x="15" y="25" fill="#24292f" font-size="12" font-weight="400">
-        <tspan fill="#ff6b00" font-weight="600">227</tspan> contribuições nos últimos 6 meses
+        <tspan fill="#ff6b00" font-weight="600">233</tspan> contribuições nos últimos 6 meses
     </text>
     
     <!-- Labels dos dias -->
@@ -295,20 +295,20 @@
     <rect class="day" x="664" y="40" width="22" height="22" fill="hsl(60, 100%, 92%)"/>
     <rect class="day" x="664" y="66" width="22" height="22" fill="hsl(60, 100%, 92%)"/>
     <rect class="day" x="664" y="92" width="22" height="22" fill="hsl(60, 100%, 92%)"/>
-    <rect class="day" x="664" y="144" width="22" height="22" fill="hsl(60, 100%, 92%)"/>
+    <rect class="day" x="664" y="144" width="22" height="22" fill="rgb(255,100,40)"/>
     <rect class="day fire-blue" x="508" y="118" width="22" height="22" fill="url(#fireGradientBlue)"/>
-    <circle class="spark-blue" cx="512.3827056140651" cy="125.9338399275779" r="0.8" style="--tx: -5.702680177501433px; --ty: -15.160701526009955px; animation-delay: 1.2896328126280485s;"/>
-    <circle class="spark-blue" cx="522.6204593979221" cy="130.3605272121132" r="0.8" style="--tx: 5.058999289733883px; --ty: -31.461090159596644px; animation-delay: 1.0174926952679033s;"/>
-    <circle class="spark-blue" cx="516.7451176372896" cy="129.60325148810477" r="0.8" style="--tx: 11.949628351302252px; --ty: -33.57004276245995px; animation-delay: 0.10819076457120169s;"/>
-    <circle class="spark-blue" cx="523.4180354072903" cy="129.15221480244915" r="0.8" style="--tx: -5.422772704076147px; --ty: -25.268148732464198px; animation-delay: 0.34967881417388286s;"/>
-    <circle class="spark-blue" cx="511.4566298666789" cy="132.45452313983625" r="0.8" style="--tx: 8.419797338155352px; --ty: -17.48630750759317px; animation-delay: 0.5396073193264072s;"/>
-    <circle class="spark-blue" cx="526.0130664707398" cy="126.30984479586049" r="0.8" style="--tx: 9.536508348016845px; --ty: -17.01020250078963px; animation-delay: 0.612214957898534s;"/>
-    <circle class="spark-blue" cx="526.9891989442702" cy="125.85133861327547" r="0.8" style="--tx: 0.4763868664039421px; --ty: -19.257922791247022px; animation-delay: 0.9423731872283421s;"/>
-    <circle class="spark-blue" cx="517.9404638100758" cy="127.11083076599321" r="0.8" style="--tx: 5.095840802850134px; --ty: -15.228631604878501px; animation-delay: 1.344715195490826s;"/>
-    <circle class="spark-blue" cx="520.2033303546224" cy="129.95147154245097" r="0.8" style="--tx: -4.151256885089639px; --ty: -35.767236541309906px; animation-delay: 1.0132343006543407s;"/>
-    <circle class="spark-blue" cx="516.0935852531811" cy="132.74574838728776" r="0.8" style="--tx: 8.178949140179235px; --ty: -35.248597351570076px; animation-delay: 0.029984320044641743s;"/>
-    <circle class="spark-blue" cx="522.4700620245893" cy="131.38114464403415" r="0.8" style="--tx: -6.839523545064834px; --ty: -25.69857245770153px; animation-delay: 1.13420484565552s;"/>
-    <circle class="spark-blue" cx="518.7668755597499" cy="125.18176526415428" r="0.8" style="--tx: 14.295027616783383px; --ty: -23.501387135169576px; animation-delay: 1.4213609062902572s;"/>
+    <circle class="spark-blue" cx="526.6832311431539" cy="132.5390120970941" r="0.8" style="--tx: -0.5127917073503347px; --ty: -23.707403447697075px; animation-delay: 0.42239022093429074s;"/>
+    <circle class="spark-blue" cx="525.0707059964535" cy="131.53178406179444" r="0.8" style="--tx: -6.713171355092575px; --ty: -38.86306737049175px; animation-delay: 0.9605542807064744s;"/>
+    <circle class="spark-blue" cx="518.4677815423327" cy="131.38168312912686" r="0.8" style="--tx: 2.6504242012982537px; --ty: -27.39228512483792px; animation-delay: 0.04141375989854684s;"/>
+    <circle class="spark-blue" cx="518.5849835800758" cy="131.11652056044684" r="0.8" style="--tx: -9.537289898558058px; --ty: -38.36505161353818px; animation-delay: 1.01374817212088s;"/>
+    <circle class="spark-blue" cx="517.4988638717313" cy="127.0903704689421" r="0.8" style="--tx: 4.664080709340645px; --ty: -32.4509299061408px; animation-delay: 1.2974965694144405s;"/>
+    <circle class="spark-blue" cx="514.0014825291634" cy="129.1357036181213" r="0.8" style="--tx: -3.8847754595525803px; --ty: -17.03293485864611px; animation-delay: 1.1511173146466294s;"/>
+    <circle class="spark-blue" cx="522.6834501739322" cy="130.93402199317242" r="0.8" style="--tx: 1.1907778000336862px; --ty: -22.610481609081866px; animation-delay: 0.019041715846069895s;"/>
+    <circle class="spark-blue" cx="516.9486186523804" cy="127.12092935282024" r="0.8" style="--tx: -11.775954980439712px; --ty: -24.641669416959992px; animation-delay: 0.4939228728049536s;"/>
+    <circle class="spark-blue" cx="516.1992188765603" cy="130.12530828833988" r="0.8" style="--tx: -1.9655530250762059px; --ty: -30.76292143046667px; animation-delay: 0.6677038303076751s;"/>
+    <circle class="spark-blue" cx="517.0510730846939" cy="128.4376834181827" r="0.8" style="--tx: -9.026721721750555px; --ty: -26.778916989748048px; animation-delay: 1.204509058909899s;"/>
+    <circle class="spark-blue" cx="519.3716362713382" cy="125.23255462949815" r="0.8" style="--tx: 3.6311239647883298px; --ty: -34.472948757277464px; animation-delay: 0.7254778167369234s;"/>
+    <circle class="spark-blue" cx="519.4088233549144" cy="131.15973283750864" r="0.8" style="--tx: 2.3885773756738082px; --ty: -19.946547643294913px; animation-delay: 1.1746847110085523s;"/>
     <rect class="day fire-red" x="664" y="118" width="22" height="22" fill="url(#fireGradientRed)"/>
 
     <defs>
@@ -347,7 +347,7 @@
     </defs>
     
     <!-- Legenda -->
-    <g transform="translate(40, 242)">
+    <g transform="translate(40, 272)">
         <text y="15">Menos</text>
         <rect x="40" width="22" height="22" fill="#ebedf0" rx="2"/>
         <rect x="64" width="22" height="22" fill="hsl(60, 100%, 92%)" rx="2"/>
