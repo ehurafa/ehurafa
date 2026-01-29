@@ -1,2 +1,4 @@
 main.yml
 main-old.yml
+.env
+__pycache__/

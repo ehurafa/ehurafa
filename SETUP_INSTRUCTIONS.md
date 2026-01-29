@@ -29,21 +29,22 @@ cd SEU_USERNAME
    - Dê permissão: `read:user`
    - Copie o token gerado
 
-3. **Configure o script**
-   - Abra `generate_heatmap.py`
-   - Na linha 47, adicione seu token:
-   ```python
-   "Authorization": "Bearer ghp_SEU_TOKEN_AQUI"
+3. **Configure o ambiente (.env)**
+   - Renomeie `.env.example` para `.env`
+   - Adicione seus dados:
+   ```ini
+   GITHUB_USERNAME=seu_usuario
+   GITHUB_TOKEN=seu_token_aqui
    ```
 
 4. **Instale dependências**
 ```bash
-pip install requests
+pip install requests python-dotenv
 ```
 
 5. **Gere o heatmap**
 ```bash
-python generate_heatmap.py
+python generate_heatmap_v2.py
 ```
 
 6. **Adicione ao seu README**
