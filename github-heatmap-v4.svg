@@ -1,4 +1,4 @@
-<svg width="100%" viewBox="0 0 730 302" xmlns="http://www.w3.org/2000/svg">
+<svg width="100%" viewBox="0 0 730 322" xmlns="http://www.w3.org/2000/svg">
     <style>
         .day { rx: 2; ry: 2; transition: all 0.2s; }
         .day:hover { stroke: #ff6b00; stroke-width: 2; }
@@ -108,11 +108,11 @@
             }
         }
     </style>
-    <rect width="730" height="302" fill="#ffffff" rx="6"/>
+    <rect width="730" height="322" fill="#ffffff" rx="6"/>
     
     <!-- Título -->
     <text x="15" y="25" fill="#24292f" font-size="12" font-weight="400">
-        <tspan fill="#ff6b00" font-weight="600">234</tspan> contribuições nos últimos 6 meses
+        <tspan fill="#ff6b00" font-weight="600">235</tspan> contribuições nos últimos 6 meses
     </text>
     
     <!-- Labels dos dias -->
@@ -295,21 +295,21 @@
     <rect class="day" x="664" y="40" width="22" height="22" fill="hsl(60, 100%, 92%)"/>
     <rect class="day" x="664" y="66" width="22" height="22" fill="hsl(60, 100%, 92%)"/>
     <rect class="day" x="664" y="92" width="22" height="22" fill="hsl(60, 100%, 92%)"/>
-    <rect class="day" x="664" y="144" width="22" height="22" fill="rgb(255,60,30)"/>
     <rect class="day fire-blue" x="508" y="118" width="22" height="22" fill="url(#fireGradientBlue)"/>
-    <circle class="spark-blue" cx="524.6775413326126" cy="125.08744422755605" r="0.8" style="--tx: -5.786897919305122px; --ty: -34.5577631965573px; animation-delay: 0.26676056410742977s;"/>
-    <circle class="spark-blue" cx="511.5989647968766" cy="125.57016265585267" r="0.8" style="--tx: -9.977671311215694px; --ty: -26.65838353852223px; animation-delay: 0.39573768182267105s;"/>
-    <circle class="spark-blue" cx="525.1342545873669" cy="125.92443141294437" r="0.8" style="--tx: -9.842733241960406px; --ty: -28.177086146295792px; animation-delay: 0.8783819714041999s;"/>
-    <circle class="spark-blue" cx="523.4731225268639" cy="127.69415648550512" r="0.8" style="--tx: -14.435629433782927px; --ty: -17.062850843030027px; animation-delay: 0.1623621722414041s;"/>
-    <circle class="spark-blue" cx="521.2500803644575" cy="130.4711921514345" r="0.8" style="--tx: 6.747015373526317px; --ty: -38.30672964310697px; animation-delay: 0.5526796826641089s;"/>
-    <circle class="spark-blue" cx="513.0811237916671" cy="125.5155269774706" r="0.8" style="--tx: -11.830863060452334px; --ty: -39.53912537089882px; animation-delay: 0.192624242415667s;"/>
-    <circle class="spark-blue" cx="525.364175136288" cy="125.90585237758997" r="0.8" style="--tx: 7.767035261271172px; --ty: -16.065529792796813px; animation-delay: 0.46380195695984905s;"/>
-    <circle class="spark-blue" cx="524.8238481529266" cy="132.1940364072017" r="0.8" style="--tx: 6.841634604457944px; --ty: -21.98636743865401px; animation-delay: 0.20642895980620418s;"/>
-    <circle class="spark-blue" cx="526.2070947603712" cy="128.33432678635342" r="0.8" style="--tx: -13.074208405897632px; --ty: -31.981355161803208px; animation-delay: 1.294280707136661s;"/>
-    <circle class="spark-blue" cx="521.9073497803693" cy="132.27992162876953" r="0.8" style="--tx: -3.2382878656543266px; --ty: -28.42472498944274px; animation-delay: 1.292426223048598s;"/>
-    <circle class="spark-blue" cx="524.9699976494237" cy="127.49127289483494" r="0.8" style="--tx: 0.052277758483793235px; --ty: -20.621221635340152px; animation-delay: 1.198909703713822s;"/>
-    <circle class="spark-blue" cx="513.0293215083245" cy="131.76353472190013" r="0.8" style="--tx: -2.455288490825904px; --ty: -25.675641385773144px; animation-delay: 1.1973232624281862s;"/>
+    <circle class="spark-blue" cx="518.4164378212447" cy="128.12708315960796" r="0.8" style="--tx: 14.031873745458661px; --ty: -33.39176762266371px; animation-delay: 0.7429022556204016s;"/>
+    <circle class="spark-blue" cx="515.4898095090509" cy="129.3648267734651" r="0.8" style="--tx: -12.74287221773387px; --ty: -16.17435408561032px; animation-delay: 0.29889113428597663s;"/>
+    <circle class="spark-blue" cx="514.3550725732786" cy="127.46998712025452" r="0.8" style="--tx: 14.988831296647255px; --ty: -37.83074744432596px; animation-delay: 1.1507112226648823s;"/>
+    <circle class="spark-blue" cx="517.4539183066692" cy="132.01510536299787" r="0.8" style="--tx: -2.1373265803118517px; --ty: -35.48747067002383px; animation-delay: 0.5408441275890026s;"/>
+    <circle class="spark-blue" cx="525.4489102543425" cy="130.79492423245148" r="0.8" style="--tx: 13.792510916681767px; --ty: -25.424391286748943px; animation-delay: 1.2958240433331865s;"/>
+    <circle class="spark-blue" cx="520.84081962615" cy="128.3991848729919" r="0.8" style="--tx: 0.3932821397477255px; --ty: -15.837997190174686px; animation-delay: 0.1872038721033022s;"/>
+    <circle class="spark-blue" cx="526.3559923002903" cy="130.82936848484206" r="0.8" style="--tx: 11.025179414629154px; --ty: -36.469085986795186px; animation-delay: 0.46263569706111474s;"/>
+    <circle class="spark-blue" cx="511.18190396322433" cy="129.00006403540033" r="0.8" style="--tx: 11.566268821787993px; --ty: -15.977577584953263px; animation-delay: 0.9667400677331465s;"/>
+    <circle class="spark-blue" cx="519.9603880745761" cy="130.4942215201697" r="0.8" style="--tx: 9.819965492941375px; --ty: -31.527436213183766px; animation-delay: 0.9908533208802283s;"/>
+    <circle class="spark-blue" cx="513.2550696948819" cy="131.66881908391758" r="0.8" style="--tx: -3.57642100718086px; --ty: -37.71147044326462px; animation-delay: 1.3841283720332904s;"/>
+    <circle class="spark-blue" cx="523.2768843362778" cy="132.86537242605007" r="0.8" style="--tx: 11.196730897811896px; --ty: -21.008257622915384px; animation-delay: 1.2199666155567441s;"/>
+    <circle class="spark-blue" cx="515.6096332985458" cy="130.24640404006806" r="0.8" style="--tx: -9.351548780625539px; --ty: -30.687372067396016px; animation-delay: 0.37402071638097595s;"/>
     <rect class="day fire-red" x="664" y="118" width="22" height="22" fill="url(#fireGradientRed)"/>
+    <rect class="day fire-red" x="664" y="144" width="22" height="22" fill="url(#fireGradientRed)"/>
 
     <defs>
         <!-- Gradiente Fogo Vermelho -->
