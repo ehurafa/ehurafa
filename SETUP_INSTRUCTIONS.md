@@ -35,6 +35,8 @@ cd SEU_USERNAME
    ```ini
    GITHUB_USERNAME=seu_usuario
    GITHUB_TOKEN=seu_token_aqui
+   MONTHS_TO_SHOW=6
+   THEME=light
    ```
 
 4. **Instale dependências**

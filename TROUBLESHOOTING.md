@@ -142,3 +142,14 @@ Se nada funcionar:
 ---
 
 💬 Se precisar de mais ajuda, me chama!
+
+## ⚠️ Limitações Conhecidas
+
+### O "Hover" não funciona no perfil do GitHub
+Você vai notar que ao abrir a imagem diretamente (clicando nela), o efeito de "passar o mouse" (hover) funciona e destaca os quadradinhos. Porém, na página principal do perfil (README), isso **não funciona**.
+
+**Por que isso acontece?**
+O GitHub renderiza imagens SVG dentro de uma tag `<img>` por razões de segurança. Isso remove a interatividade do arquivo. O navegador trata a imagem como estática para eventos do mouse, impedindo que os estilos `:hover` internos do SVG funcionem.
+
+**Existe solução?**
+Infelizmente, **não**. É uma limitação da plataforma GitHub para evitar scripts maliciosos ou comportamentos inesperados. O máximo que conseguimos fazer são animações por tempo (`keyframes`), como o efeito de fogo que implementamos, pois elas não dependem da interação do usuário.

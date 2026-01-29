@@ -21,10 +21,29 @@ load_dotenv()
 USERNAME = os.environ.get('GITHUB_USERNAME') or os.environ.get('GITHUB_ACTOR') or os.environ.get('USERNAME', 'ehurafa')
 GITHUB_TOKEN = os.environ.get('GITHUB_TOKEN', '')
 MONTHS_TO_SHOW = int(os.environ.get('MONTHS_TO_SHOW', 6)) # Default: 6 meses
+THEME = os.environ.get('THEME', 'light') # 'light' or 'dark'
+
+# Configuração de Temas
+THEMES = {
+    "dark": {
+        "bg": "#0d1117",
+        "text": "#8b949e",
+        "empty": "#1a1e2e",
+        "title": "#c9d1d9"
+    },
+    "light": {
+        "bg": "#ffffff",
+        "text": "#24292f",
+        "empty": "#ebedf0",
+        "title": "#24292f"
+    }
+}
+
+current_theme = THEMES.get(THEME, THEMES["dark"])
 
 # Cores personalizadas (seus 8 níveis)
 COLORS = {
-    0: "#1a1e2e",           # Sem commits
+    0: current_theme["empty"],           # Sem commits
     1: "hsl(60, 100%, 92%)",  # 1-2 commits - Amarelo muito claro
     2: "#ffff3e",           # 3-4 commits - Amarelo vibrante
     3: "#FFD700",           # 5 commits - Dourado
@@ -246,7 +265,7 @@ def generate_svg_heatmap(contributions_data):
     <style>
         .day {{ rx: 2; ry: 2; transition: all 0.2s; }}
         .day:hover {{ stroke: #ff6b00; stroke-width: 2; }}
-        text {{ font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji"; font-size: 10px; fill: #8b949e; }}
+        text {{ font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji"; font-size: 10px; fill: {current_theme["text"]}; }}
         /* Efeito de Fogo Intenso Animado */
         .fire {{ 
             stroke: #ffae00;
@@ -269,10 +288,10 @@ def generate_svg_heatmap(contributions_data):
             }}
         }}
     </style>
-    <rect width="{width}" height="{height}" fill="#0d1117" rx="6"/>
+    <rect width="{width}" height="{height}" fill="{current_theme["bg"]}" rx="6"/>
     
     <!-- Título -->
-    <text x="15" y="25" fill="#c9d1d9" font-size="12" font-weight="400">
+    <text x="15" y="25" fill="{current_theme["title"]}" font-size="12" font-weight="400">
         <tspan fill="#ff6b00" font-weight="600">{contributions_data["totalContributions"]}</tspan> contribuições nos últimos {MONTHS_TO_SHOW} meses
     </text>
     
