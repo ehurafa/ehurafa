@@ -7,8 +7,10 @@ Gera um heatmap SVG com suas contribuições reais do GitHub
 import requests
 from datetime import datetime, timedelta
 import json
+import os
 
-USERNAME = "ehurafa"  # Seu username do GitHub
+USERNAME = os.environ.get('USERNAME', 'ehurafa')  # Pega do ambiente ou usa default
+GITHUB_TOKEN = os.environ.get('GITHUB_TOKEN', '')  # Token do GitHub Actions
 
 # Cores personalizadas (seus 8 níveis)
 COLORS = {
@@ -62,11 +64,14 @@ def fetch_contributions(username):
     }
     """
     
-    # Headers (você precisará adicionar seu token aqui)
+    # Headers com o token do GitHub
     headers = {
         "Content-Type": "application/json",
-        # "Authorization": "Bearer SEU_TOKEN_AQUI"  # Descomente e adicione seu token
     }
+    
+    # Adiciona token se disponível
+    if GITHUB_TOKEN:
+        headers["Authorization"] = f"Bearer {GITHUB_TOKEN}"
     
     payload = {
         "query": query,
