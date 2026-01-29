@@ -25,7 +25,7 @@ MONTHS_TO_SHOW = int(os.environ.get('MONTHS_TO_SHOW', 6)) # Default: 6 meses
 # Cores personalizadas (seus 8 níveis)
 COLORS = {
     0: "#1a1e2e",           # Sem commits
-    1: "rgb(255,255,255)",  # 1-2 commits - Branco
+    1: "hsl(60, 100%, 92%)",  # 1-2 commits - Amarelo muito claro
     2: "#ffff3e",           # 3-4 commits - Amarelo vibrante
     3: "#FFD700",           # 5 commits - Dourado
     4: "rgb(255,160,90)",   # 6 commits - Laranja claro
