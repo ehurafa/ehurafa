@@ -38,3 +38,5 @@ Acredito que minha missão como Desenvolvedor é resolver problemas!
   
   ##
 
+  ![GitHub Heatmap](./github-heatmap.svg)
+
