@@ -148,7 +148,7 @@
     
     <!-- Título -->
     <text x="15" y="25" fill="#24292f" font-size="12" font-weight="400">
-        <tspan fill="#ff6b00" font-weight="600">246</tspan> contribuições nos últimos 6 meses
+        <tspan fill="#ff6b00" font-weight="600">247</tspan> contribuições nos últimos 6 meses
     </text>
     
     <!-- Labels dos dias -->
@@ -331,11 +331,11 @@
     <rect class="day" x="664" y="66" width="22" height="22" fill="#ffff3e"/>
     <rect class="day" x="664" y="92" width="22" height="22" fill="#ebedf0"/>
     <rect class="day fire-white" x="482" y="118" width="22" height="22" fill="url(#fireGradientWhite)"/>
-    <path class="lightning" d="M 493.0,113 L 491.23841987674405,122.4 L 492.15226755298727,126.8 L 489.25590317883956,131.2 L 494.364095929135,135.6 L 493.0,145" style="animation-delay: 0.7327168436764833s;"/>
+    <path class="lightning" d="M 493.0,113 L 491.19116241362906,122.4 L 487.50599256058047,126.8 L 492.3009435898377,131.2 L 495.2615470527929,135.6 L 493.0,145" style="animation-delay: 0.5844574498392323s;"/>
     <rect class="day fire-white" x="638" y="118" width="22" height="22" fill="url(#fireGradientWhite)"/>
-    <path class="lightning" d="M 649.0,113 L 651.9910611583957,122.4 L 643.5712362964175,126.8 L 646.0753220184087,131.2 L 644.633895344056,135.6 L 649.0,145" style="animation-delay: 0.7028000557349634s;"/>
+    <path class="lightning" d="M 649.0,113 L 652.4796321636874,122.4 L 650.2127737680778,126.8 L 645.6456780565601,131.2 L 645.0522721289376,135.6 L 649.0,145" style="animation-delay: 1.2189015318980514s;"/>
     <rect class="day fire-white" x="638" y="144" width="22" height="22" fill="url(#fireGradientWhite)"/>
-    <path class="lightning" d="M 649.0,139 L 649.4422008556222,148.4 L 644.4148235250872,152.8 L 651.5621126014713,157.2 L 645.7798248551497,161.6 L 649.0,171" style="animation-delay: 1.5174716452645884s;"/>
+    <path class="lightning" d="M 649.0,139 L 647.858272615258,148.4 L 643.8056809097551,152.8 L 652.857756847537,157.2 L 652.553176926544,161.6 L 649.0,171" style="animation-delay: 1.1224176921351106s;"/>
 
     <defs>
         <!-- Gradiente Fogo Vermelho -->
