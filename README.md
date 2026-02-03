@@ -19,7 +19,7 @@ Acredito que minha missão como Desenvolvedor é resolver problemas!
 
    <b>Meus commits nos últimos 6 meses</b>
 
-  <img align="center" alt="Heatmap" height="auto" width="100%" src="./github-heatmap-v5.svg?v=2">
+  <img align="center" alt="Heatmap" height="auto" width="100%" src="./github-heatmap-v5.svg?v=3">
 </div>
 <div style="display: inline_block"><br>
    <img align="center" alt="Rafa-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
