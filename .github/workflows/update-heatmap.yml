@@ -28,14 +28,14 @@ jobs:
         
     - name: Install dependencies
       run: |
-        pip install requests
+        pip install requests python-dotenv
         
     - name: Generate heatmap
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         USERNAME: ${{ github.repository_owner }}
       run: |
-        python generate_heatmap_v5.py
+        python generate_heatmap_v6.py
         
     - name: Commit and push if changed
       run: |
