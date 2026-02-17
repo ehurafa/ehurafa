@@ -148,7 +148,7 @@
     
     <!-- Título -->
     <text x="15" y="25" fill="#24292f" font-size="12" font-weight="400">
-        <tspan fill="#ff6b00" font-weight="600">269</tspan> contribuições nos últimos 6 meses
+        <tspan fill="#ff6b00" font-weight="600">270</tspan> contribuições nos últimos 6 meses
     </text>
     
     <!-- Labels dos dias -->
@@ -329,12 +329,13 @@
     <rect class="day" x="638" y="196" width="22" height="22" fill="#ebedf0"/>
     <rect class="day" x="664" y="40" width="22" height="22" fill="#ebedf0"/>
     <rect class="day" x="664" y="66" width="22" height="22" fill="hsl(60, 100%, 92%)"/>
+    <rect class="day" x="664" y="92" width="22" height="22" fill="#ebedf0"/>
     <rect class="day fire-white" x="430" y="118" width="22" height="22" fill="url(#fireGradientWhite)"/>
-    <path class="lightning" d="M 441.0,113 L 439.0920445652003,122.4 L 446.00018087284093,126.8 L 438.00616273341484,131.2 L 439.28113444639274,135.6 L 441.0,145" style="animation-delay: 1.1167206851060667s;"/>
+    <path class="lightning" d="M 441.0,113 L 441.09856589374635,122.4 L 440.4988329535147,126.8 L 440.79924780950785,131.2 L 439.21326313935447,135.6 L 441.0,145" style="animation-delay: 1.1929632095623455s;"/>
     <rect class="day fire-white" x="586" y="118" width="22" height="22" fill="url(#fireGradientWhite)"/>
-    <path class="lightning" d="M 597.0,113 L 597.9845615667276,122.4 L 591.1837224703047,126.8 L 593.7085871213684,131.2 L 598.5167513999914,135.6 L 597.0,145" style="animation-delay: 0.29484165794416217s;"/>
+    <path class="lightning" d="M 597.0,113 L 595.334255963218,122.4 L 598.8649751674881,126.8 L 594.417210169827,131.2 L 593.1226550384611,135.6 L 597.0,145" style="animation-delay: 1.0433528571650843s;"/>
     <rect class="day fire-white" x="586" y="144" width="22" height="22" fill="url(#fireGradientWhite)"/>
-    <path class="lightning" d="M 597.0,139 L 594.5238248351078,148.4 L 598.7645509244929,152.8 L 598.2576657763587,157.2 L 594.9875230536552,161.6 L 597.0,171" style="animation-delay: 0.1623122320932382s;"/>
+    <path class="lightning" d="M 597.0,139 L 598.5471589087771,148.4 L 602.8998609490989,152.8 L 595.2566122166198,157.2 L 594.8481565152746,161.6 L 597.0,171" style="animation-delay: 1.278153212350605s;"/>
 
     <defs>
         <!-- Gradiente Fogo Vermelho -->
