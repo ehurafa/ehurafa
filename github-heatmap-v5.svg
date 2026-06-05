@@ -331,12 +331,13 @@
     <rect class="day" x="664" y="92" width="22" height="22" fill="#ebedf0"/>
     <rect class="day" x="664" y="118" width="22" height="22" fill="#ebedf0"/>
     <rect class="day" x="664" y="144" width="22" height="22" fill="#ebedf0"/>
+    <rect class="day" x="664" y="170" width="22" height="22" fill="#ebedf0"/>
     <rect class="day fire-white" x="40" y="118" width="22" height="22" fill="url(#fireGradientWhite)"/>
-    <path class="lightning" d="M 51.0,113 L 49.363376936407825,122.4 L 51.88399971170611,126.8 L 49.48868421673832,131.2 L 54.71709485893451,135.6 L 51.0,145" style="animation-delay: 1.9227775001077483s;"/>
+    <path class="lightning" d="M 51.0,113 L 47.87632618528995,122.4 L 47.58598826847463,126.8 L 53.273396792583675,131.2 L 53.06084084539127,135.6 L 51.0,145" style="animation-delay: 0.06601326461989676s;"/>
     <rect class="day fire-white" x="196" y="118" width="22" height="22" fill="url(#fireGradientWhite)"/>
-    <path class="lightning" d="M 207.0,113 L 203.137083099473,122.4 L 201.96183949594254,126.8 L 206.72303258723164,131.2 L 202.79583637424403,135.6 L 207.0,145" style="animation-delay: 1.4752995984910953s;"/>
+    <path class="lightning" d="M 207.0,113 L 204.65114032765013,122.4 L 212.84264891477576,126.8 L 209.80561753851427,131.2 L 206.21354001621216,135.6 L 207.0,145" style="animation-delay: 1.0924589402381164s;"/>
     <rect class="day fire-white" x="196" y="144" width="22" height="22" fill="url(#fireGradientWhite)"/>
-    <path class="lightning" d="M 207.0,139 L 209.11771205775727,148.4 L 210.05888074920944,152.8 L 207.5490790567503,157.2 L 206.60330334674725,161.6 L 207.0,171" style="animation-delay: 1.8982699926334707s;"/>
+    <path class="lightning" d="M 207.0,139 L 206.11000326271292,148.4 L 202.82035106785548,152.8 L 206.2590576570144,157.2 L 204.36961532475942,161.6 L 207.0,171" style="animation-delay: 0.08852485956210887s;"/>
 
     <defs>
         <!-- Gradiente Fogo Vermelho -->
