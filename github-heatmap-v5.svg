@@ -156,98 +156,100 @@
     <text x="25" y="134" text-anchor="end">Qua</text>
     <text x="25" y="186" text-anchor="end">Sex</text>
     <text x="40" y="35">Dez</text>
-    <text x="118" y="35">Jan</text>
-    <text x="222" y="35">Fev</text>
-    <text x="326" y="35">Mar</text>
-    <text x="456" y="35">Abr</text>
-    <text x="560" y="35">Mai</text>
-    <rect class="day" x="40" y="40" width="22" height="22" fill="#ffff3e"/>
-    <rect class="day" x="40" y="66" width="22" height="22" fill="#ffff3e"/>
-    <rect class="day" x="40" y="92" width="22" height="22" fill="#FFD700"/>
-    <rect class="day" x="40" y="144" width="22" height="22" fill="#FFD700"/>
-    <rect class="day" x="40" y="170" width="22" height="22" fill="rgb(255,60,30)"/>
-    <rect class="day" x="40" y="196" width="22" height="22" fill="#ebedf0"/>
+    <text x="92" y="35">Jan</text>
+    <text x="196" y="35">Fev</text>
+    <text x="300" y="35">Mar</text>
+    <text x="430" y="35">Abr</text>
+    <text x="534" y="35">Mai</text>
+    <text x="664" y="35">Jun</text>
+    <rect class="day" x="40" y="40" width="22" height="22" fill="#ebedf0"/>
+    <rect class="day" x="40" y="66" width="22" height="22" fill="#ebedf0"/>
+    <rect class="day" x="40" y="92" width="22" height="22" fill="#ffff3e"/>
+    <rect class="day" x="40" y="118" width="22" height="22" fill="#ebedf0"/>
+    <rect class="day" x="40" y="144" width="22" height="22" fill="#ebedf0"/>
+    <rect class="day" x="40" y="170" width="22" height="22" fill="rgb(255,130,60)"/>
+    <rect class="day" x="40" y="196" width="22" height="22" fill="hsl(60, 100%, 92%)"/>
     <rect class="day" x="66" y="40" width="22" height="22" fill="#ebedf0"/>
     <rect class="day" x="66" y="66" width="22" height="22" fill="#ebedf0"/>
-    <rect class="day" x="66" y="92" width="22" height="22" fill="#ffff3e"/>
+    <rect class="day" x="66" y="92" width="22" height="22" fill="#ebedf0"/>
     <rect class="day" x="66" y="118" width="22" height="22" fill="#ebedf0"/>
     <rect class="day" x="66" y="144" width="22" height="22" fill="#ebedf0"/>
-    <rect class="day" x="66" y="170" width="22" height="22" fill="rgb(255,130,60)"/>
-    <rect class="day" x="66" y="196" width="22" height="22" fill="hsl(60, 100%, 92%)"/>
+    <rect class="day" x="66" y="170" width="22" height="22" fill="#ebedf0"/>
+    <rect class="day" x="66" y="196" width="22" height="22" fill="#ebedf0"/>
     <rect class="day" x="92" y="40" width="22" height="22" fill="#ebedf0"/>
-    <rect class="day" x="92" y="66" width="22" height="22" fill="#ebedf0"/>
+    <rect class="day" x="92" y="66" width="22" height="22" fill="hsl(60, 100%, 92%)"/>
     <rect class="day" x="92" y="92" width="22" height="22" fill="#ebedf0"/>
-    <rect class="day" x="92" y="118" width="22" height="22" fill="#ebedf0"/>
+    <rect class="day" x="92" y="118" width="22" height="22" fill="hsl(60, 100%, 92%)"/>
     <rect class="day" x="92" y="144" width="22" height="22" fill="#ebedf0"/>
-    <rect class="day" x="92" y="170" width="22" height="22" fill="#ebedf0"/>
+    <rect class="day" x="92" y="170" width="22" height="22" fill="hsl(60, 100%, 92%)"/>
     <rect class="day" x="92" y="196" width="22" height="22" fill="#ebedf0"/>
-    <rect class="day" x="118" y="40" width="22" height="22" fill="#ebedf0"/>
+    <rect class="day" x="118" y="40" width="22" height="22" fill="hsl(60, 100%, 92%)"/>
     <rect class="day" x="118" y="66" width="22" height="22" fill="hsl(60, 100%, 92%)"/>
-    <rect class="day" x="118" y="92" width="22" height="22" fill="#ebedf0"/>
-    <rect class="day" x="118" y="118" width="22" height="22" fill="hsl(60, 100%, 92%)"/>
-    <rect class="day" x="118" y="144" width="22" height="22" fill="#ebedf0"/>
+    <rect class="day" x="118" y="92" width="22" height="22" fill="hsl(60, 100%, 92%)"/>
+    <rect class="day" x="118" y="118" width="22" height="22" fill="#ebedf0"/>
+    <rect class="day" x="118" y="144" width="22" height="22" fill="#ffff3e"/>
     <rect class="day" x="118" y="170" width="22" height="22" fill="hsl(60, 100%, 92%)"/>
     <rect class="day" x="118" y="196" width="22" height="22" fill="#ebedf0"/>
-    <rect class="day" x="144" y="40" width="22" height="22" fill="hsl(60, 100%, 92%)"/>
+    <rect class="day" x="144" y="40" width="22" height="22" fill="#ebedf0"/>
     <rect class="day" x="144" y="66" width="22" height="22" fill="hsl(60, 100%, 92%)"/>
-    <rect class="day" x="144" y="92" width="22" height="22" fill="hsl(60, 100%, 92%)"/>
+    <rect class="day" x="144" y="92" width="22" height="22" fill="#ebedf0"/>
     <rect class="day" x="144" y="118" width="22" height="22" fill="#ebedf0"/>
-    <rect class="day" x="144" y="144" width="22" height="22" fill="#ffff3e"/>
-    <rect class="day" x="144" y="170" width="22" height="22" fill="hsl(60, 100%, 92%)"/>
+    <rect class="day" x="144" y="144" width="22" height="22" fill="#FFD700"/>
+    <rect class="day" x="144" y="170" width="22" height="22" fill="#ffff3e"/>
     <rect class="day" x="144" y="196" width="22" height="22" fill="#ebedf0"/>
-    <rect class="day" x="170" y="40" width="22" height="22" fill="#ebedf0"/>
+    <rect class="day" x="170" y="40" width="22" height="22" fill="hsl(60, 100%, 92%)"/>
     <rect class="day" x="170" y="66" width="22" height="22" fill="hsl(60, 100%, 92%)"/>
-    <rect class="day" x="170" y="92" width="22" height="22" fill="#ebedf0"/>
-    <rect class="day" x="170" y="118" width="22" height="22" fill="#ebedf0"/>
-    <rect class="day" x="170" y="144" width="22" height="22" fill="#FFD700"/>
+    <rect class="day" x="170" y="92" width="22" height="22" fill="hsl(60, 100%, 92%)"/>
     <rect class="day" x="170" y="170" width="22" height="22" fill="#ffff3e"/>
     <rect class="day" x="170" y="196" width="22" height="22" fill="#ebedf0"/>
     <rect class="day" x="196" y="40" width="22" height="22" fill="hsl(60, 100%, 92%)"/>
-    <rect class="day" x="196" y="66" width="22" height="22" fill="hsl(60, 100%, 92%)"/>
-    <rect class="day" x="196" y="92" width="22" height="22" fill="hsl(60, 100%, 92%)"/>
-    <rect class="day" x="196" y="170" width="22" height="22" fill="#ffff3e"/>
-    <rect class="day" x="196" y="196" width="22" height="22" fill="#ebedf0"/>
-    <rect class="day" x="222" y="40" width="22" height="22" fill="hsl(60, 100%, 92%)"/>
-    <rect class="day" x="222" y="66" width="22" height="22" fill="#FFD700"/>
-    <rect class="day" x="222" y="92" width="22" height="22" fill="#ebedf0"/>
-    <rect class="day" x="222" y="118" width="22" height="22" fill="rgb(255,100,40)"/>
-    <rect class="day" x="222" y="144" width="22" height="22" fill="rgb(255,160,90)"/>
+    <rect class="day" x="196" y="66" width="22" height="22" fill="#FFD700"/>
+    <rect class="day" x="196" y="92" width="22" height="22" fill="#ebedf0"/>
+    <rect class="day" x="196" y="118" width="22" height="22" fill="rgb(255,100,40)"/>
+    <rect class="day" x="196" y="144" width="22" height="22" fill="rgb(255,160,90)"/>
+    <rect class="day" x="196" y="170" width="22" height="22" fill="#ebedf0"/>
+    <rect class="day" x="196" y="196" width="22" height="22" fill="#ffff3e"/>
+    <rect class="day" x="222" y="40" width="22" height="22" fill="#ebedf0"/>
+    <rect class="day" x="222" y="66" width="22" height="22" fill="hsl(60, 100%, 92%)"/>
+    <rect class="day" x="222" y="92" width="22" height="22" fill="hsl(60, 100%, 92%)"/>
+    <rect class="day" x="222" y="118" width="22" height="22" fill="hsl(60, 100%, 92%)"/>
+    <rect class="day" x="222" y="144" width="22" height="22" fill="#ebedf0"/>
     <rect class="day" x="222" y="170" width="22" height="22" fill="#ebedf0"/>
-    <rect class="day" x="222" y="196" width="22" height="22" fill="#ffff3e"/>
+    <rect class="day" x="222" y="196" width="22" height="22" fill="#ebedf0"/>
     <rect class="day" x="248" y="40" width="22" height="22" fill="#ebedf0"/>
     <rect class="day" x="248" y="66" width="22" height="22" fill="hsl(60, 100%, 92%)"/>
     <rect class="day" x="248" y="92" width="22" height="22" fill="hsl(60, 100%, 92%)"/>
-    <rect class="day" x="248" y="118" width="22" height="22" fill="hsl(60, 100%, 92%)"/>
-    <rect class="day" x="248" y="144" width="22" height="22" fill="#ebedf0"/>
-    <rect class="day" x="248" y="170" width="22" height="22" fill="#ebedf0"/>
+    <rect class="day" x="248" y="118" width="22" height="22" fill="#ebedf0"/>
+    <rect class="day" x="248" y="144" width="22" height="22" fill="hsl(60, 100%, 92%)"/>
+    <rect class="day" x="248" y="170" width="22" height="22" fill="hsl(60, 100%, 92%)"/>
     <rect class="day" x="248" y="196" width="22" height="22" fill="#ebedf0"/>
     <rect class="day" x="274" y="40" width="22" height="22" fill="#ebedf0"/>
-    <rect class="day" x="274" y="66" width="22" height="22" fill="hsl(60, 100%, 92%)"/>
-    <rect class="day" x="274" y="92" width="22" height="22" fill="hsl(60, 100%, 92%)"/>
+    <rect class="day" x="274" y="66" width="22" height="22" fill="#ebedf0"/>
+    <rect class="day" x="274" y="92" width="22" height="22" fill="#ebedf0"/>
     <rect class="day" x="274" y="118" width="22" height="22" fill="#ebedf0"/>
-    <rect class="day" x="274" y="144" width="22" height="22" fill="hsl(60, 100%, 92%)"/>
-    <rect class="day" x="274" y="170" width="22" height="22" fill="hsl(60, 100%, 92%)"/>
+    <rect class="day" x="274" y="144" width="22" height="22" fill="#ebedf0"/>
+    <rect class="day" x="274" y="170" width="22" height="22" fill="#ebedf0"/>
     <rect class="day" x="274" y="196" width="22" height="22" fill="#ebedf0"/>
     <rect class="day" x="300" y="40" width="22" height="22" fill="#ebedf0"/>
     <rect class="day" x="300" y="66" width="22" height="22" fill="#ebedf0"/>
-    <rect class="day" x="300" y="92" width="22" height="22" fill="#ebedf0"/>
+    <rect class="day" x="300" y="92" width="22" height="22" fill="hsl(60, 100%, 92%)"/>
     <rect class="day" x="300" y="118" width="22" height="22" fill="#ebedf0"/>
     <rect class="day" x="300" y="144" width="22" height="22" fill="#ebedf0"/>
-    <rect class="day" x="300" y="170" width="22" height="22" fill="#ebedf0"/>
-    <rect class="day" x="300" y="196" width="22" height="22" fill="#ebedf0"/>
-    <rect class="day" x="326" y="40" width="22" height="22" fill="#ebedf0"/>
+    <rect class="day" x="300" y="170" width="22" height="22" fill="#ffff3e"/>
+    <rect class="day" x="300" y="196" width="22" height="22" fill="hsl(60, 100%, 92%)"/>
+    <rect class="day" x="326" y="40" width="22" height="22" fill="#FFD700"/>
     <rect class="day" x="326" y="66" width="22" height="22" fill="#ebedf0"/>
-    <rect class="day" x="326" y="92" width="22" height="22" fill="hsl(60, 100%, 92%)"/>
+    <rect class="day" x="326" y="92" width="22" height="22" fill="#ebedf0"/>
     <rect class="day" x="326" y="118" width="22" height="22" fill="#ebedf0"/>
     <rect class="day" x="326" y="144" width="22" height="22" fill="#ebedf0"/>
-    <rect class="day" x="326" y="170" width="22" height="22" fill="#ffff3e"/>
-    <rect class="day" x="326" y="196" width="22" height="22" fill="hsl(60, 100%, 92%)"/>
-    <rect class="day" x="352" y="40" width="22" height="22" fill="#FFD700"/>
+    <rect class="day" x="326" y="170" width="22" height="22" fill="hsl(60, 100%, 92%)"/>
+    <rect class="day" x="326" y="196" width="22" height="22" fill="#ebedf0"/>
+    <rect class="day" x="352" y="40" width="22" height="22" fill="#ebedf0"/>
     <rect class="day" x="352" y="66" width="22" height="22" fill="#ebedf0"/>
     <rect class="day" x="352" y="92" width="22" height="22" fill="#ebedf0"/>
     <rect class="day" x="352" y="118" width="22" height="22" fill="#ebedf0"/>
     <rect class="day" x="352" y="144" width="22" height="22" fill="#ebedf0"/>
-    <rect class="day" x="352" y="170" width="22" height="22" fill="hsl(60, 100%, 92%)"/>
+    <rect class="day" x="352" y="170" width="22" height="22" fill="#ebedf0"/>
     <rect class="day" x="352" y="196" width="22" height="22" fill="#ebedf0"/>
     <rect class="day" x="378" y="40" width="22" height="22" fill="#ebedf0"/>
     <rect class="day" x="378" y="66" width="22" height="22" fill="#ebedf0"/>
@@ -256,35 +258,35 @@
     <rect class="day" x="378" y="144" width="22" height="22" fill="#ebedf0"/>
     <rect class="day" x="378" y="170" width="22" height="22" fill="#ebedf0"/>
     <rect class="day" x="378" y="196" width="22" height="22" fill="#ebedf0"/>
-    <rect class="day" x="404" y="40" width="22" height="22" fill="#ebedf0"/>
+    <rect class="day" x="404" y="40" width="22" height="22" fill="hsl(60, 100%, 92%)"/>
     <rect class="day" x="404" y="66" width="22" height="22" fill="#ebedf0"/>
     <rect class="day" x="404" y="92" width="22" height="22" fill="#ebedf0"/>
     <rect class="day" x="404" y="118" width="22" height="22" fill="#ebedf0"/>
     <rect class="day" x="404" y="144" width="22" height="22" fill="#ebedf0"/>
     <rect class="day" x="404" y="170" width="22" height="22" fill="#ebedf0"/>
-    <rect class="day" x="404" y="196" width="22" height="22" fill="#ebedf0"/>
-    <rect class="day" x="430" y="40" width="22" height="22" fill="hsl(60, 100%, 92%)"/>
+    <rect class="day" x="404" y="196" width="22" height="22" fill="hsl(60, 100%, 92%)"/>
+    <rect class="day" x="430" y="40" width="22" height="22" fill="#ebedf0"/>
     <rect class="day" x="430" y="66" width="22" height="22" fill="#ebedf0"/>
     <rect class="day" x="430" y="92" width="22" height="22" fill="#ebedf0"/>
-    <rect class="day" x="430" y="118" width="22" height="22" fill="#ebedf0"/>
+    <rect class="day" x="430" y="118" width="22" height="22" fill="hsl(60, 100%, 92%)"/>
     <rect class="day" x="430" y="144" width="22" height="22" fill="#ebedf0"/>
     <rect class="day" x="430" y="170" width="22" height="22" fill="#ebedf0"/>
-    <rect class="day" x="430" y="196" width="22" height="22" fill="hsl(60, 100%, 92%)"/>
+    <rect class="day" x="430" y="196" width="22" height="22" fill="#ebedf0"/>
     <rect class="day" x="456" y="40" width="22" height="22" fill="#ebedf0"/>
     <rect class="day" x="456" y="66" width="22" height="22" fill="#ebedf0"/>
     <rect class="day" x="456" y="92" width="22" height="22" fill="#ebedf0"/>
-    <rect class="day" x="456" y="118" width="22" height="22" fill="hsl(60, 100%, 92%)"/>
+    <rect class="day" x="456" y="118" width="22" height="22" fill="#ebedf0"/>
     <rect class="day" x="456" y="144" width="22" height="22" fill="#ebedf0"/>
     <rect class="day" x="456" y="170" width="22" height="22" fill="#ebedf0"/>
     <rect class="day" x="456" y="196" width="22" height="22" fill="#ebedf0"/>
-    <rect class="day" x="482" y="40" width="22" height="22" fill="#ebedf0"/>
+    <rect class="day" x="482" y="40" width="22" height="22" fill="hsl(60, 100%, 92%)"/>
     <rect class="day" x="482" y="66" width="22" height="22" fill="#ebedf0"/>
     <rect class="day" x="482" y="92" width="22" height="22" fill="#ebedf0"/>
     <rect class="day" x="482" y="118" width="22" height="22" fill="#ebedf0"/>
     <rect class="day" x="482" y="144" width="22" height="22" fill="#ebedf0"/>
     <rect class="day" x="482" y="170" width="22" height="22" fill="#ebedf0"/>
     <rect class="day" x="482" y="196" width="22" height="22" fill="#ebedf0"/>
-    <rect class="day" x="508" y="40" width="22" height="22" fill="hsl(60, 100%, 92%)"/>
+    <rect class="day" x="508" y="40" width="22" height="22" fill="#ebedf0"/>
     <rect class="day" x="508" y="66" width="22" height="22" fill="#ebedf0"/>
     <rect class="day" x="508" y="92" width="22" height="22" fill="#ebedf0"/>
     <rect class="day" x="508" y="118" width="22" height="22" fill="#ebedf0"/>
@@ -304,14 +306,14 @@
     <rect class="day" x="560" y="118" width="22" height="22" fill="#ebedf0"/>
     <rect class="day" x="560" y="144" width="22" height="22" fill="#ebedf0"/>
     <rect class="day" x="560" y="170" width="22" height="22" fill="#ebedf0"/>
-    <rect class="day" x="560" y="196" width="22" height="22" fill="#ebedf0"/>
+    <rect class="day" x="560" y="196" width="22" height="22" fill="hsl(60, 100%, 92%)"/>
     <rect class="day" x="586" y="40" width="22" height="22" fill="#ebedf0"/>
     <rect class="day" x="586" y="66" width="22" height="22" fill="#ebedf0"/>
     <rect class="day" x="586" y="92" width="22" height="22" fill="#ebedf0"/>
     <rect class="day" x="586" y="118" width="22" height="22" fill="#ebedf0"/>
     <rect class="day" x="586" y="144" width="22" height="22" fill="#ebedf0"/>
-    <rect class="day" x="586" y="170" width="22" height="22" fill="#ebedf0"/>
-    <rect class="day" x="586" y="196" width="22" height="22" fill="hsl(60, 100%, 92%)"/>
+    <rect class="day" x="586" y="170" width="22" height="22" fill="hsl(60, 100%, 92%)"/>
+    <rect class="day" x="586" y="196" width="22" height="22" fill="#ebedf0"/>
     <rect class="day" x="612" y="40" width="22" height="22" fill="#ebedf0"/>
     <rect class="day" x="612" y="66" width="22" height="22" fill="#ebedf0"/>
     <rect class="day" x="612" y="92" width="22" height="22" fill="#ebedf0"/>
@@ -320,25 +322,17 @@
     <rect class="day" x="612" y="170" width="22" height="22" fill="hsl(60, 100%, 92%)"/>
     <rect class="day" x="612" y="196" width="22" height="22" fill="#ebedf0"/>
     <rect class="day" x="638" y="40" width="22" height="22" fill="#ebedf0"/>
-    <rect class="day" x="638" y="66" width="22" height="22" fill="#ebedf0"/>
+    <rect class="day" x="638" y="66" width="22" height="22" fill="hsl(60, 100%, 92%)"/>
     <rect class="day" x="638" y="92" width="22" height="22" fill="#ebedf0"/>
     <rect class="day" x="638" y="118" width="22" height="22" fill="#ebedf0"/>
     <rect class="day" x="638" y="144" width="22" height="22" fill="#ebedf0"/>
-    <rect class="day" x="638" y="170" width="22" height="22" fill="hsl(60, 100%, 92%)"/>
+    <rect class="day" x="638" y="170" width="22" height="22" fill="#ebedf0"/>
     <rect class="day" x="638" y="196" width="22" height="22" fill="#ebedf0"/>
     <rect class="day" x="664" y="40" width="22" height="22" fill="#ebedf0"/>
-    <rect class="day" x="664" y="66" width="22" height="22" fill="hsl(60, 100%, 92%)"/>
-    <rect class="day" x="664" y="92" width="22" height="22" fill="#ebedf0"/>
-    <rect class="day" x="664" y="118" width="22" height="22" fill="#ebedf0"/>
-    <rect class="day" x="664" y="144" width="22" height="22" fill="#ebedf0"/>
-    <rect class="day" x="664" y="170" width="22" height="22" fill="#ebedf0"/>
-    <rect class="day" x="664" y="196" width="22" height="22" fill="#ebedf0"/>
-    <rect class="day fire-white" x="40" y="118" width="22" height="22" fill="url(#fireGradientWhite)"/>
-    <path class="lightning" d="M 51.0,113 L 48.50623803724152,122.4 L 46.38754942520939,126.8 L 47.91411922259411,131.2 L 47.908360930825616,135.6 L 51.0,145" style="animation-delay: 0.005685650816086074s;"/>
-    <rect class="day fire-white" x="196" y="118" width="22" height="22" fill="url(#fireGradientWhite)"/>
-    <path class="lightning" d="M 207.0,113 L 203.46248402262395,122.4 L 212.36777436917552,126.8 L 204.80511460225256,131.2 L 206.21677159837537,135.6 L 207.0,145" style="animation-delay: 1.8003786856328394s;"/>
-    <rect class="day fire-white" x="196" y="144" width="22" height="22" fill="url(#fireGradientWhite)"/>
-    <path class="lightning" d="M 207.0,139 L 208.90333004205522,148.4 L 206.64257089661047,152.8 L 203.8183077266472,157.2 L 205.54860848140657,161.6 L 207.0,171" style="animation-delay: 1.3568739440216209s;"/>
+    <rect class="day fire-white" x="170" y="118" width="22" height="22" fill="url(#fireGradientWhite)"/>
+    <path class="lightning" d="M 181.0,113 L 178.66328852141746,122.4 L 178.39755053522353,126.8 L 183.5134690306837,131.2 L 184.50281797923714,135.6 L 181.0,145" style="animation-delay: 0.31325183955511315s;"/>
+    <rect class="day fire-white" x="170" y="144" width="22" height="22" fill="url(#fireGradientWhite)"/>
+    <path class="lightning" d="M 181.0,139 L 179.95012772462292,148.4 L 183.88538317048628,152.8 L 180.29125737702373,157.2 L 184.1018955078054,161.6 L 181.0,171" style="animation-delay: 0.2932239858290626s;"/>
 
     <defs>
         <!-- Gradiente Fogo Vermelho -->
