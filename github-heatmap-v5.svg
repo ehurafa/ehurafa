@@ -331,10 +331,11 @@
     <rect class="day" x="664" y="66" width="22" height="22" fill="rgb(255,60,30)"/>
     <rect class="day" x="664" y="92" width="22" height="22" fill="#ffff3e"/>
     <rect class="day" x="664" y="118" width="22" height="22" fill="#ebedf0"/>
+    <rect class="day" x="664" y="144" width="22" height="22" fill="#ebedf0"/>
     <rect class="day fire-white" x="118" y="118" width="22" height="22" fill="url(#fireGradientWhite)"/>
-    <path class="lightning" d="M 129.0,113 L 127.28800603992254,122.4 L 128.8545873341656,126.8 L 132.24613825796942,131.2 L 131.8841583403118,135.6 L 129.0,145" style="animation-delay: 0.5177439910935473s;"/>
+    <path class="lightning" d="M 129.0,113 L 125.72532800902283,122.4 L 123.21951419148016,126.8 L 130.53876269175197,131.2 L 129.82514641218643,135.6 L 129.0,145" style="animation-delay: 1.792202975578033s;"/>
     <rect class="day fire-white" x="118" y="144" width="22" height="22" fill="url(#fireGradientWhite)"/>
-    <path class="lightning" d="M 129.0,139 L 126.9733426743354,148.4 L 124.50325778498623,152.8 L 128.23213442349694,157.2 L 125.67097299277133,161.6 L 129.0,171" style="animation-delay: 0.07153262470558497s;"/>
+    <path class="lightning" d="M 129.0,139 L 131.89049990398993,148.4 L 123.51918860556461,152.8 L 126.60612659481896,157.2 L 133.1571993356399,161.6 L 129.0,171" style="animation-delay: 0.23042241304776567s;"/>
 
     <defs>
         <!-- Gradiente Fogo Vermelho -->
