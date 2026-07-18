@@ -331,15 +331,16 @@
     <rect class="day" x="664" y="118" width="22" height="22" fill="hsl(60, 100%, 92%)"/>
     <rect class="day" x="664" y="144" width="22" height="22" fill="#ebedf0"/>
     <rect class="day" x="664" y="170" width="22" height="22" fill="#ebedf0"/>
+    <rect class="day" x="664" y="196" width="22" height="22" fill="#ebedf0"/>
     <rect class="day fire-white" x="40" y="118" width="22" height="22" fill="url(#fireGradientWhite)"/>
-    <path class="lightning" d="M 51.0,113 L 49.61918587341675,122.4 L 55.65079822011374,126.8 L 54.392284209484195,131.2 L 54.04776889328544,135.6 L 51.0,145" style="animation-delay: 1.7198916236895865s;"/>
+    <path class="lightning" d="M 51.0,113 L 53.13277528536869,122.4 L 49.08802346300368,126.8 L 51.93846456183004,131.2 L 54.92367875491705,135.6 L 51.0,145" style="animation-delay: 1.6507765622641966s;"/>
     <rect class="day fire-white" x="40" y="144" width="22" height="22" fill="url(#fireGradientWhite)"/>
-    <path class="lightning" d="M 51.0,139 L 48.66161897060655,148.4 L 45.82882556705225,152.8 L 48.93173098694828,157.2 L 52.399189115352115,161.6 L 51.0,171" style="animation-delay: 0.4529376367610698s;"/>
+    <path class="lightning" d="M 51.0,139 L 47.1157145238696,148.4 L 50.277683004531774,152.8 L 47.89129609863808,157.2 L 47.680039065904715,161.6 L 51.0,171" style="animation-delay: 0.1482828543668664s;"/>
     <rect class="day fire-red" x="638" y="92" width="22" height="22" fill="url(#fireGradientRed)"/>
     <rect class="day fire-white" x="638" y="118" width="22" height="22" fill="url(#fireGradientWhite)"/>
-    <path class="lightning" d="M 649.0,113 L 651.5250845284819,122.4 L 652.0525150026346,126.8 L 646.0299555787913,131.2 L 645.5887670451589,135.6 L 649.0,145" style="animation-delay: 1.8602560379301014s;"/>
+    <path class="lightning" d="M 649.0,113 L 651.0090232507907,122.4 L 650.9231896305859,126.8 L 645.5378454059918,131.2 L 652.7456060151651,135.6 L 649.0,145" style="animation-delay: 0.551444248658967s;"/>
     <rect class="day fire-white" x="638" y="144" width="22" height="22" fill="url(#fireGradientWhite)"/>
-    <path class="lightning" d="M 649.0,139 L 647.3576191353243,148.4 L 652.6580778344718,152.8 L 651.2404673557525,157.2 L 651.2225451432732,161.6 L 649.0,171" style="animation-delay: 1.8964337020072206s;"/>
+    <path class="lightning" d="M 649.0,139 L 651.3518705020856,148.4 L 654.4974867557161,152.8 L 646.3379899264627,157.2 L 644.1632846226864,161.6 L 649.0,171" style="animation-delay: 0.9723646665263892s;"/>
 
     <defs>
         <!-- Gradiente Fogo Vermelho -->
