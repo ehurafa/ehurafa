@@ -148,7 +148,7 @@
     
     <!-- Título -->
     <text x="15" y="25" fill="#24292f" font-size="12" font-weight="400">
-        <tspan fill="#ff6b00" font-weight="600">344</tspan> contribuições nos últimos 6 meses
+        <tspan fill="#ff6b00" font-weight="600">349</tspan> contribuições nos últimos 6 meses
     </text>
     
     <!-- Labels dos dias -->
@@ -330,12 +330,13 @@
     <rect class="day" x="664" y="66" width="22" height="22" fill="#FFD700"/>
     <rect class="day" x="664" y="92" width="22" height="22" fill="#ffff3e"/>
     <rect class="day" x="664" y="118" width="22" height="22" fill="#ffff3e"/>
-    <rect class="day" x="664" y="144" width="22" height="22" fill="#ebedf0"/>
+    <rect class="day" x="664" y="144" width="22" height="22" fill="#FFD700"/>
+    <rect class="day" x="664" y="170" width="22" height="22" fill="#ebedf0"/>
     <rect class="day fire-red" x="612" y="92" width="22" height="22" fill="url(#fireGradientRed)"/>
     <rect class="day fire-white" x="612" y="118" width="22" height="22" fill="url(#fireGradientWhite)"/>
-    <path class="lightning" d="M 623.0,113 L 622.4673531568648,122.4 L 624.8266991503428,126.8 L 621.9713593919006,131.2 L 623.6476931291577,135.6 L 623.0,145" style="animation-delay: 0.059726412173576104s;"/>
+    <path class="lightning" d="M 623.0,113 L 626.0352877792939,122.4 L 627.4118527908806,126.8 L 620.0709711450437,131.2 L 619.133674322851,135.6 L 623.0,145" style="animation-delay: 1.4837214973089055s;"/>
     <rect class="day fire-white" x="612" y="144" width="22" height="22" fill="url(#fireGradientWhite)"/>
-    <path class="lightning" d="M 623.0,139 L 624.9120332885393,148.4 L 628.8558229557799,152.8 L 619.7687574600762,157.2 L 624.90733651277,161.6 L 623.0,171" style="animation-delay: 1.3563112119226448s;"/>
+    <path class="lightning" d="M 623.0,139 L 624.5429796695006,148.4 L 622.3451372341665,152.8 L 623.5590082625596,157.2 L 626.3748871914465,161.6 L 623.0,171" style="animation-delay: 0.8252493099551947s;"/>
 
     <defs>
         <!-- Gradiente Fogo Vermelho -->
