@@ -328,11 +328,12 @@
     <rect class="day" x="638" y="196" width="22" height="22" fill="#ebedf0"/>
     <rect class="day" x="664" y="40" width="22" height="22" fill="#ebedf0"/>
     <rect class="day" x="664" y="92" width="22" height="22" fill="#ebedf0"/>
+    <rect class="day" x="664" y="118" width="22" height="22" fill="#ebedf0"/>
     <rect class="day fire-red" x="586" y="92" width="22" height="22" fill="url(#fireGradientRed)"/>
     <rect class="day fire-white" x="586" y="118" width="22" height="22" fill="url(#fireGradientWhite)"/>
-    <path class="lightning" d="M 597.0,113 L 599.8108107262551,122.4 L 601.1426227551989,126.8 L 596.6135148768424,131.2 L 599.382386207682,135.6 L 597.0,145" style="animation-delay: 1.9071313952048263s;"/>
+    <path class="lightning" d="M 597.0,113 L 593.1352888297342,122.4 L 591.8732226811707,126.8 L 600.392586320124,131.2 L 592.9342807655776,135.6 L 597.0,145" style="animation-delay: 0.8182606627242868s;"/>
     <rect class="day fire-white" x="586" y="144" width="22" height="22" fill="url(#fireGradientWhite)"/>
-    <path class="lightning" d="M 597.0,139 L 594.6741858998076,148.4 L 593.558763121778,152.8 L 594.7265672184249,157.2 L 595.2037234164195,161.6 L 597.0,171" style="animation-delay: 1.310169809895256s;"/>
+    <path class="lightning" d="M 597.0,139 L 596.5190933883611,148.4 L 596.2491200256269,152.8 L 599.6351371655359,157.2 L 597.8981807791627,161.6 L 597.0,171" style="animation-delay: 0.04412211803221289s;"/>
     <rect class="day fire-red" x="664" y="66" width="22" height="22" fill="url(#fireGradientRed)"/>
 
     <defs>
