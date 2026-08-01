@@ -148,7 +148,7 @@
     
     <!-- Título -->
     <text x="15" y="25" fill="#24292f" font-size="12" font-weight="400">
-        <tspan fill="#ff6b00" font-weight="600">363</tspan> contribuições nos últimos 6 meses
+        <tspan fill="#ff6b00" font-weight="600">364</tspan> contribuições nos últimos 6 meses
     </text>
     
     <!-- Labels dos dias -->
@@ -330,12 +330,13 @@
     <rect class="day" x="664" y="92" width="22" height="22" fill="rgb(255,160,90)"/>
     <rect class="day" x="664" y="118" width="22" height="22" fill="hsl(60, 100%, 92%)"/>
     <rect class="day" x="664" y="144" width="22" height="22" fill="#ebedf0"/>
-    <rect class="day" x="664" y="170" width="22" height="22" fill="#ebedf0"/>
+    <rect class="day" x="664" y="170" width="22" height="22" fill="hsl(60, 100%, 92%)"/>
+    <rect class="day" x="664" y="196" width="22" height="22" fill="#ebedf0"/>
     <rect class="day fire-red" x="586" y="92" width="22" height="22" fill="url(#fireGradientRed)"/>
     <rect class="day fire-white" x="586" y="118" width="22" height="22" fill="url(#fireGradientWhite)"/>
-    <path class="lightning" d="M 597.0,113 L 598.3526267306258,122.4 L 595.6003811844168,126.8 L 599.0027183913807,131.2 L 596.6050853813899,135.6 L 597.0,145" style="animation-delay: 0.7945632372274138s;"/>
+    <path class="lightning" d="M 597.0,113 L 599.7988691154072,122.4 L 599.9490526673607,126.8 L 600.9420613592233,131.2 L 599.62292105069,135.6 L 597.0,145" style="animation-delay: 1.8970214212457892s;"/>
     <rect class="day fire-white" x="586" y="144" width="22" height="22" fill="url(#fireGradientWhite)"/>
-    <path class="lightning" d="M 597.0,139 L 597.033203659923,148.4 L 595.6318156988873,152.8 L 599.9245986448623,157.2 L 600.8427403397533,161.6 L 597.0,171" style="animation-delay: 1.4283946003795394s;"/>
+    <path class="lightning" d="M 597.0,139 L 595.0572635737783,148.4 L 602.8684804079619,152.8 L 599.5165770723589,157.2 L 592.8545335378752,161.6 L 597.0,171" style="animation-delay: 1.6497250014995342s;"/>
     <rect class="day fire-red" x="664" y="66" width="22" height="22" fill="url(#fireGradientRed)"/>
 
     <defs>
