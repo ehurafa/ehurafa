@@ -148,7 +148,7 @@
     
     <!-- Título -->
     <text x="15" y="25" fill="#24292f" font-size="12" font-weight="400">
-        <tspan fill="#ff6b00" font-weight="600">379</tspan> contribuições nos últimos 6 meses
+        <tspan fill="#ff6b00" font-weight="600">378</tspan> contribuições nos últimos 6 meses
     </text>
     
     <!-- Labels dos dias -->
@@ -327,11 +327,12 @@
     <rect class="day" x="638" y="170" width="22" height="22" fill="#ebedf0"/>
     <rect class="day" x="638" y="196" width="22" height="22" fill="#ebedf0"/>
     <rect class="day" x="664" y="40" width="22" height="22" fill="#ebedf0"/>
+    <rect class="day" x="664" y="66" width="22" height="22" fill="#ebedf0"/>
     <rect class="day fire-red" x="534" y="92" width="22" height="22" fill="url(#fireGradientRed)"/>
     <rect class="day fire-white" x="534" y="118" width="22" height="22" fill="url(#fireGradientWhite)"/>
-    <path class="lightning" d="M 545.0,113 L 541.6747656375171,122.4 L 544.8482093422684,126.8 L 545.3175085040205,131.2 L 548.2176498848899,135.6 L 545.0,145" style="animation-delay: 0.41504125199537323s;"/>
+    <path class="lightning" d="M 545.0,113 L 542.1052612947176,122.4 L 546.8483207591793,126.8 L 548.6281046507232,131.2 L 543.6210055405706,135.6 L 545.0,145" style="animation-delay: 1.3768007222518766s;"/>
     <rect class="day fire-white" x="534" y="144" width="22" height="22" fill="url(#fireGradientWhite)"/>
-    <path class="lightning" d="M 545.0,139 L 548.8245528454096,148.4 L 542.5079662724412,152.8 L 548.3333691641462,157.2 L 541.1854384312804,161.6 L 545.0,171" style="animation-delay: 1.9500015665518005s;"/>
+    <path class="lightning" d="M 545.0,139 L 547.557953569347,148.4 L 549.0994423640083,152.8 L 541.2047652288759,157.2 L 540.450400744185,161.6 L 545.0,171" style="animation-delay: 1.2370251899325349s;"/>
     <rect class="day fire-red" x="612" y="66" width="22" height="22" fill="url(#fireGradientRed)"/>
 
     <defs>
