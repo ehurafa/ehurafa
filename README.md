@@ -3,7 +3,7 @@
  <!-- <img height="180em" src="https://github-readme-stats.vercel.app/api?username=ehurafa&show_icons=true&include_all_commits=true&count_private=true"/> 
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ehurafa&layout=compact&langs_count=7"/> --></a>
   <p>
-  Sou Desenvolvedor Front-end Sênior com mais de 15 anos de experiência, atuando na construção de produtos digitais escaláveis, performáticos e orientados à experiência do usuário. Ao longo da minha trajetória, contribuí para bancos, fintechs, e-commerces e grandes marcas, para criar experiências incríveis.
+  Sou Desenvolvedor Front-end Sênior com mais de 10 anos de experiência, atuando na construção de produtos digitais escaláveis, performáticos e orientados à experiência do usuário. Ao longo da minha trajetória, contribuí para bancos, fintechs, e-commerces e grandes marcas, para criar experiências incríveis.
     
 Trabalho com arquitetura front-end, Design Systems, micro-frontends e aplicações SSR/CSR em contextos de alta complexidade, como plataformas financeiras, e-commerce e produtos B2B. Ao longo da carreira, apoiei times a reduzir retrabalho, padronizar código e melhorar métricas de performance, SEO e Web Vitals.
 
