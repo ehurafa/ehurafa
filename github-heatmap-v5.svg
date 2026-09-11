@@ -148,7 +148,7 @@
     
     <!-- Título -->
     <text x="15" y="25" fill="#24292f" font-size="12" font-weight="400">
-        <tspan fill="#ff6b00" font-weight="600">834</tspan> contribuições nos últimos 6 meses
+        <tspan fill="#ff6b00" font-weight="600">847</tspan> contribuições nos últimos 6 meses
     </text>
     
     <!-- Labels dos dias -->
@@ -308,52 +308,54 @@
     <rect class="day" x="638" y="40" width="22" height="22" fill="rgb(255,160,90)"/>
     <rect class="day" x="638" y="196" width="22" height="22" fill="rgb(255,160,90)"/>
     <rect class="day" x="664" y="40" width="22" height="22" fill="#ebedf0"/>
-    <rect class="day" x="664" y="66" width="22" height="22" fill="rgb(255,100,40)"/>
-    <rect class="day" x="664" y="92" width="22" height="22" fill="hsl(60, 100%, 92%)"/>
+    <rect class="day" x="664" y="92" width="22" height="22" fill="rgb(255,130,60)"/>
     <rect class="day" x="664" y="118" width="22" height="22" fill="#ebedf0"/>
-    <rect class="day" x="664" y="144" width="22" height="22" fill="#ebedf0"/>
+    <rect class="day" x="664" y="144" width="22" height="22" fill="#ffff3e"/>
+    <rect class="day" x="664" y="170" width="22" height="22" fill="#ebedf0"/>
     <rect class="day fire-red" x="430" y="92" width="22" height="22" fill="url(#fireGradientRed)"/>
     <rect class="day fire-white" x="430" y="118" width="22" height="22" fill="url(#fireGradientWhite)"/>
-    <path class="lightning" d="M 441.0,113 L 437.92923613824473,122.4 L 444.85370597393097,126.8 L 439.6945289156582,131.2 L 438.67178808824076,135.6 L 441.0,145" style="animation-delay: 1.3483662251348187s;"/>
+    <path class="lightning" d="M 441.0,113 L 443.37071877850286,122.4 L 439.32201434918204,126.8 L 438.7053740991992,131.2 L 445.7119147548039,135.6 L 441.0,145" style="animation-delay: 0.7639793185772634s;"/>
     <rect class="day fire-white" x="430" y="144" width="22" height="22" fill="url(#fireGradientWhite)"/>
-    <path class="lightning" d="M 441.0,139 L 441.2730065297596,148.4 L 436.9239672947405,152.8 L 441.7516467608268,157.2 L 442.94830323133675,161.6 L 441.0,171" style="animation-delay: 0.29123690820905446s;"/>
+    <path class="lightning" d="M 441.0,139 L 444.7414973549335,148.4 L 444.3673890198127,152.8 L 444.96802643806313,157.2 L 438.56537356389856,161.6 L 441.0,171" style="animation-delay: 0.780137294258294s;"/>
     <rect class="day fire-red" x="508" y="66" width="22" height="22" fill="url(#fireGradientRed)"/>
     <rect class="day fire-white" x="534" y="144" width="22" height="22" fill="url(#fireGradientWhite)"/>
-    <path class="lightning" d="M 545.0,139 L 545.6474842274207,148.4 L 548.9271985502637,152.8 L 541.710598344213,157.2 L 544.2299808463923,161.6 L 545.0,171" style="animation-delay: 1.876324412455336s;"/>
+    <path class="lightning" d="M 545.0,139 L 541.5372279515824,148.4 L 547.5300664612515,152.8 L 546.0665869100839,157.2 L 546.5824586774963,161.6 L 545.0,171" style="animation-delay: 1.8962208709314643s;"/>
     <rect class="day fire-red" x="560" y="92" width="22" height="22" fill="url(#fireGradientRed)"/>
     <rect class="day fire-white" x="560" y="118" width="22" height="22" fill="url(#fireGradientWhite)"/>
-    <path class="lightning" d="M 571.0,113 L 568.6019906733245,122.4 L 574.5668497324859,126.8 L 567.4715630834896,131.2 L 571.1732372459479,135.6 L 571.0,145" style="animation-delay: 1.900663786710455s;"/>
+    <path class="lightning" d="M 571.0,113 L 570.211785969314,122.4 L 569.7871874693601,126.8 L 572.3160256384086,131.2 L 571.633009651947,135.6 L 571.0,145" style="animation-delay: 0.12994335553784708s;"/>
     <rect class="day fire-red" x="560" y="144" width="22" height="22" fill="url(#fireGradientRed)"/>
     <rect class="day fire-white" x="586" y="40" width="22" height="22" fill="url(#fireGradientWhite)"/>
-    <path class="lightning" d="M 597.0,35 L 593.8351368896098,44.4 L 596.2209157305439,48.8 L 598.6339526585817,53.2 L 594.6169633046314,57.6 L 597.0,67" style="animation-delay: 1.2058710381067275s;"/>
+    <path class="lightning" d="M 597.0,35 L 598.6080546485082,44.4 L 599.7980383650373,48.8 L 597.0483764457291,53.2 L 594.0804975629994,57.6 L 597.0,67" style="animation-delay: 0.20921160204949651s;"/>
     <rect class="day fire-white" x="586" y="92" width="22" height="22" fill="url(#fireGradientWhite)"/>
-    <path class="lightning" d="M 597.0,87 L 596.7441749570282,96.4 L 594.2308222024227,100.8 L 595.7719513615926,105.2 L 598.2976456849606,109.6 L 597.0,119" style="animation-delay: 0.36314034483997437s;"/>
+    <path class="lightning" d="M 597.0,87 L 596.2102281571499,96.4 L 602.1255138192624,100.8 L 595.3520632599888,105.2 L 599.3125847473576,109.6 L 597.0,119" style="animation-delay: 0.033352969807130206s;"/>
     <rect class="day fire-white" x="586" y="118" width="22" height="22" fill="url(#fireGradientWhite)"/>
-    <path class="lightning" d="M 597.0,113 L 595.1061999927994,122.4 L 593.0556988188763,126.8 L 598.3173290309633,131.2 L 594.2635308124478,135.6 L 597.0,145" style="animation-delay: 1.526704355198312s;"/>
+    <path class="lightning" d="M 597.0,113 L 595.6651735372752,122.4 L 593.5652787372535,126.8 L 594.5331784671955,131.2 L 599.0421909787477,135.6 L 597.0,145" style="animation-delay: 1.3545453240484384s;"/>
     <rect class="day fire-white" x="586" y="170" width="22" height="22" fill="url(#fireGradientWhite)"/>
-    <path class="lightning" d="M 597.0,165 L 599.5040048561549,174.4 L 591.5919193378627,178.8 L 595.5087486497183,183.2 L 592.1198193082238,187.6 L 597.0,197" style="animation-delay: 0.9210583938839734s;"/>
+    <path class="lightning" d="M 597.0,165 L 596.3335616127993,174.4 L 599.0209953449227,178.8 L 596.8664352522492,183.2 L 599.7344167769704,187.6 L 597.0,197" style="animation-delay: 0.9971817784741195s;"/>
     <rect class="day fire-white" x="612" y="40" width="22" height="22" fill="url(#fireGradientWhite)"/>
-    <path class="lightning" d="M 623.0,35 L 624.5871048965247,44.4 L 619.1335462327531,48.8 L 624.0571542410324,53.2 L 623.5188112047573,57.6 L 623.0,67" style="animation-delay: 1.0132817143974946s;"/>
+    <path class="lightning" d="M 623.0,35 L 622.6010734917877,44.4 L 624.7661104516598,48.8 L 624.7449054070273,53.2 L 621.451959445428,57.6 L 623.0,67" style="animation-delay: 1.6824201085338786s;"/>
     <rect class="day fire-white" x="612" y="66" width="22" height="22" fill="url(#fireGradientWhite)"/>
-    <path class="lightning" d="M 623.0,61 L 625.8983228258952,70.4 L 624.7600712448802,74.8 L 624.5615257978029,79.2 L 619.9574302470533,83.6 L 623.0,93" style="animation-delay: 1.2643619136785191s;"/>
+    <path class="lightning" d="M 623.0,61 L 623.1404881235226,70.4 L 621.7976600027582,74.8 L 625.8063701554651,79.2 L 621.1690717790555,83.6 L 623.0,93" style="animation-delay: 0.9478157239443321s;"/>
     <rect class="day fire-white" x="612" y="92" width="22" height="22" fill="url(#fireGradientWhite)"/>
-    <path class="lightning" d="M 623.0,87 L 625.7463450536054,96.4 L 627.2793457459001,100.8 L 626.3506270006787,105.2 L 627.1145658187951,109.6 L 623.0,119" style="animation-delay: 0.1263365896151225s;"/>
+    <path class="lightning" d="M 623.0,87 L 619.863011859821,96.4 L 619.6949450375051,100.8 L 621.8275178529773,105.2 L 627.3947516724126,109.6 L 623.0,119" style="animation-delay: 0.11448905751646388s;"/>
     <rect class="day fire-white" x="612" y="144" width="22" height="22" fill="url(#fireGradientWhite)"/>
-    <path class="lightning" d="M 623.0,139 L 625.2029044467796,148.4 L 627.684289866356,152.8 L 619.0778614348095,157.2 L 626.2651955724842,161.6 L 623.0,171" style="animation-delay: 0.2688852490214333s;"/>
+    <path class="lightning" d="M 623.0,139 L 621.6317057330655,148.4 L 622.0787112832019,152.8 L 621.8912876591313,157.2 L 627.8968976572789,161.6 L 623.0,171" style="animation-delay: 1.8056952600206433s;"/>
     <rect class="day fire-white" x="612" y="170" width="22" height="22" fill="url(#fireGradientWhite)"/>
-    <path class="lightning" d="M 623.0,165 L 622.2142876615093,174.4 L 628.978748589693,178.8 L 620.0962645587773,183.2 L 621.7975278259695,187.6 L 623.0,197" style="animation-delay: 1.2341976225631877s;"/>
+    <path class="lightning" d="M 623.0,165 L 622.626885119786,174.4 L 627.6651315947305,178.8 L 625.2834423219115,183.2 L 621.8045175493835,187.6 L 623.0,197" style="animation-delay: 1.4697976338988095s;"/>
     <rect class="day fire-white" x="612" y="196" width="22" height="22" fill="url(#fireGradientWhite)"/>
-    <path class="lightning" d="M 623.0,191 L 620.4087671716118,200.4 L 623.6920788116669,204.8 L 624.3755966681323,209.2 L 626.9269003222719,213.6 L 623.0,223" style="animation-delay: 0.9657736386770421s;"/>
+    <path class="lightning" d="M 623.0,191 L 625.4052380960632,200.4 L 622.7716098108656,204.8 L 621.5446927673737,209.2 L 626.8690445750614,213.6 L 623.0,223" style="animation-delay: 1.4257781804946126s;"/>
     <rect class="day fire-white" x="638" y="66" width="22" height="22" fill="url(#fireGradientWhite)"/>
-    <path class="lightning" d="M 649.0,61 L 647.3789641535154,70.4 L 643.4703009143572,74.8 L 651.9124978699034,79.2 L 652.7233115604573,83.6 L 649.0,93" style="animation-delay: 0.4979066038909934s;"/>
+    <path class="lightning" d="M 649.0,61 L 646.8939855925335,70.4 L 654.4754089999253,74.8 L 648.3172008728518,79.2 L 647.7107857709976,83.6 L 649.0,93" style="animation-delay: 0.34667211395014297s;"/>
     <rect class="day fire-white" x="638" y="92" width="22" height="22" fill="url(#fireGradientWhite)"/>
-    <path class="lightning" d="M 649.0,87 L 651.8745632296483,96.4 L 652.1149430401343,100.8 L 647.1208150260907,105.2 L 650.4507101776053,109.6 L 649.0,119" style="animation-delay: 0.7414606052435613s;"/>
+    <path class="lightning" d="M 649.0,87 L 651.8612149204395,96.4 L 647.1979300959874,100.8 L 647.2360785414162,105.2 L 647.0493214073808,109.6 L 649.0,119" style="animation-delay: 1.0110057925400955s;"/>
     <rect class="day fire-white" x="638" y="118" width="22" height="22" fill="url(#fireGradientWhite)"/>
-    <path class="lightning" d="M 649.0,113 L 646.9541374581246,122.4 L 647.130005769421,126.8 L 645.8844873113118,131.2 L 650.9114522682145,135.6 L 649.0,145" style="animation-delay: 0.2307874637872369s;"/>
+    <path class="lightning" d="M 649.0,113 L 647.8754877604858,122.4 L 646.7123459316298,126.8 L 651.2116024990049,131.2 L 645.1710271324569,135.6 L 649.0,145" style="animation-delay: 0.79260101709307s;"/>
     <rect class="day fire-white" x="638" y="144" width="22" height="22" fill="url(#fireGradientWhite)"/>
-    <path class="lightning" d="M 649.0,139 L 649.7390480038811,148.4 L 652.9302387796436,152.8 L 649.675666709379,157.2 L 644.9974681361018,161.6 L 649.0,171" style="animation-delay: 1.4628201259257545s;"/>
+    <path class="lightning" d="M 649.0,139 L 645.7339368201679,148.4 L 651.1202164045919,152.8 L 651.9194669564047,157.2 L 651.3569521762945,161.6 L 649.0,171" style="animation-delay: 1.4898989876826831s;"/>
     <rect class="day fire-white" x="638" y="170" width="22" height="22" fill="url(#fireGradientWhite)"/>
-    <path class="lightning" d="M 649.0,165 L 652.3359642913523,174.4 L 645.1945258287931,178.8 L 652.4326871602324,183.2 L 650.1249920408528,187.6 L 649.0,197" style="animation-delay: 1.622573040505019s;"/>
+    <path class="lightning" d="M 649.0,165 L 649.6863478168688,174.4 L 648.5646441305096,178.8 L 650.3212282813099,183.2 L 648.3549292551282,187.6 L 649.0,197" style="animation-delay: 1.6935445240174234s;"/>
+    <rect class="day fire-white" x="664" y="66" width="22" height="22" fill="url(#fireGradientWhite)"/>
+    <path class="lightning" d="M 675.0,61 L 675.0182967755054,70.4 L 675.8829761997561,74.8 L 671.6238453799477,79.2 L 673.0944617992765,83.6 L 675.0,93" style="animation-delay: 0.8704806032623236s;"/>
 
     <defs>
         <!-- Gradiente Fogo Vermelho -->
